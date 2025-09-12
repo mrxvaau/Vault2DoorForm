@@ -72,5 +72,10 @@ namespace Store.Forms
             InvestmentSection investmentsection = new InvestmentSection(currentUserId);
             investmentsection.Show();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

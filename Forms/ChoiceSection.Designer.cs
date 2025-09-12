@@ -56,9 +56,9 @@
             // necklace30
             // 
             this.necklace30.Image = global::Store.Properties.Resources.necklace3;
-            this.necklace30.Location = new System.Drawing.Point(658, 174);
+            this.necklace30.Location = new System.Drawing.Point(625, 131);
             this.necklace30.Name = "necklace30";
-            this.necklace30.Size = new System.Drawing.Size(280, 232);
+            this.necklace30.Size = new System.Drawing.Size(313, 275);
             this.necklace30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.necklace30.TabIndex = 4;
             this.necklace30.TabStop = false;
@@ -67,9 +67,9 @@
             // earring10
             // 
             this.earring10.Image = global::Store.Properties.Resources.earring1;
-            this.earring10.Location = new System.Drawing.Point(346, 174);
+            this.earring10.Location = new System.Drawing.Point(305, 131);
             this.earring10.Name = "earring10";
-            this.earring10.Size = new System.Drawing.Size(289, 232);
+            this.earring10.Size = new System.Drawing.Size(330, 275);
             this.earring10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.earring10.TabIndex = 3;
             this.earring10.TabStop = false;
@@ -79,9 +79,9 @@
             // 
             this.ringpic20.BackgroundImage = global::Store.Properties.Resources.rings2;
             this.ringpic20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ringpic20.Location = new System.Drawing.Point(44, 174);
+            this.ringpic20.Location = new System.Drawing.Point(2, 131);
             this.ringpic20.Name = "ringpic20";
-            this.ringpic20.Size = new System.Drawing.Size(280, 232);
+            this.ringpic20.Size = new System.Drawing.Size(322, 275);
             this.ringpic20.TabIndex = 2;
             this.ringpic20.TabStop = false;
             this.ringpic20.Click += new System.EventHandler(this.ringpic20_Click);
@@ -102,27 +102,28 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(157, 423);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 16);
+            this.label1.Size = new System.Drawing.Size(62, 16);
             this.label1.TabIndex = 5;
-            this.label1.Text = "Ring";
+            this.label1.Text = "Diamond";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(458, 423);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(57, 16);
+            this.label2.Size = new System.Drawing.Size(36, 16);
             this.label2.TabIndex = 6;
-            this.label2.Text = "Earrings";
+            this.label2.Text = "Gold";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(760, 423);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 16);
+            this.label3.Size = new System.Drawing.Size(41, 16);
             this.label3.TabIndex = 7;
-            this.label3.Text = "Necklace";
+            this.label3.Text = "Silver";
             // 
             // label4
             // 

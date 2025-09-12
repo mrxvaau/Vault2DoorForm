@@ -94,5 +94,10 @@ namespace Store.Forms
             DiamondVariants ring3 = new DiamondVariants(currentUserId);
             ring3.Show();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
