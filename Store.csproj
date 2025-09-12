@@ -54,23 +54,23 @@
     <Compile Include="Forms\AdminDashboard.Designer.cs">
       <DependentUpon>AdminDashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\BuyEarring1.cs">
+    <Compile Include="Forms\Gold_24K.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\BuyEarring1.Designer.cs">
-      <DependentUpon>BuyEarring1.cs</DependentUpon>
+    <Compile Include="Forms\Gold_24K.Designer.cs">
+      <DependentUpon>Gold_24K.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\BuyEarring2.cs">
+    <Compile Include="Forms\Gold_22K.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\BuyEarring2.Designer.cs">
-      <DependentUpon>BuyEarring2.cs</DependentUpon>
+    <Compile Include="Forms\Gold_22K.Designer.cs">
+      <DependentUpon>Gold_22K.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\BuyEarring3.cs">
+    <Compile Include="Forms\Gold_18K.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\BuyEarring3.Designer.cs">
-      <DependentUpon>BuyEarring3.cs</DependentUpon>
+    <Compile Include="Forms\Gold_18K.Designer.cs">
+      <DependentUpon>Gold_18K.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\CartForm.cs">
       <SubType>Form</SubType>
@@ -102,23 +102,23 @@
     <Compile Include="Forms\MyUserProfile.Designer.cs">
       <DependentUpon>MyUserProfile.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Necklace1.cs">
+    <Compile Include="Forms\Silver_Alloy.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Necklace1.Designer.cs">
-      <DependentUpon>Necklace1.cs</DependentUpon>
+    <Compile Include="Forms\Silver_Alloy.Designer.cs">
+      <DependentUpon>Silver_Alloy.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Necklace2.cs">
+    <Compile Include="Forms\Silver_Sterling.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Necklace2.Designer.cs">
-      <DependentUpon>Necklace2.cs</DependentUpon>
+    <Compile Include="Forms\Silver_Sterling.Designer.cs">
+      <DependentUpon>Silver_Sterling.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Necklace3.cs">
+    <Compile Include="Forms\Silver_Fine.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Necklace3.Designer.cs">
-      <DependentUpon>Necklace3.cs</DependentUpon>
+    <Compile Include="Forms\Silver_Fine.Designer.cs">
+      <DependentUpon>Silver_Fine.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Necklaces.cs">
       <SubType>Form</SubType>
@@ -188,14 +188,14 @@
     <EmbeddedResource Include="Forms\AdminDashboard.resx">
       <DependentUpon>AdminDashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\BuyEarring1.resx">
-      <DependentUpon>BuyEarring1.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Gold_24K.resx">
+      <DependentUpon>Gold_24K.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\BuyEarring2.resx">
-      <DependentUpon>BuyEarring2.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Gold_22K.resx">
+      <DependentUpon>Gold_22K.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\BuyEarring3.resx">
-      <DependentUpon>BuyEarring3.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Gold_18K.resx">
+      <DependentUpon>Gold_18K.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\CartForm.resx">
       <DependentUpon>CartForm.cs</DependentUpon>
@@ -212,14 +212,14 @@
     <EmbeddedResource Include="Forms\MyUserProfile.resx">
       <DependentUpon>MyUserProfile.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Necklace1.resx">
-      <DependentUpon>Necklace1.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Silver_Alloy.resx">
+      <DependentUpon>Silver_Alloy.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Necklace2.resx">
-      <DependentUpon>Necklace2.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Silver_Sterling.resx">
+      <DependentUpon>Silver_Sterling.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Necklace3.resx">
-      <DependentUpon>Necklace3.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Silver_Fine.resx">
+      <DependentUpon>Silver_Fine.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Necklaces.resx">
       <DependentUpon>Necklaces.cs</DependentUpon>

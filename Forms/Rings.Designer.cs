@@ -56,9 +56,9 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Store.Properties.Resources.rings3;
-            this.pictureBox3.Location = new System.Drawing.Point(666, 172);
+            this.pictureBox3.Location = new System.Drawing.Point(665, 102);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(280, 232);
+            this.pictureBox3.Size = new System.Drawing.Size(280, 317);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
@@ -67,9 +67,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Store.Properties.Resources.rings1;
-            this.pictureBox2.Location = new System.Drawing.Point(347, 229);
+            this.pictureBox2.Location = new System.Drawing.Point(364, 106);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(280, 232);
+            this.pictureBox2.Size = new System.Drawing.Size(263, 313);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
@@ -78,9 +78,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Store.Properties.Resources.rings2;
-            this.pictureBox1.Location = new System.Drawing.Point(34, 172);
+            this.pictureBox1.Location = new System.Drawing.Point(39, 91);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(280, 232);
+            this.pictureBox1.Size = new System.Drawing.Size(280, 313);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -98,16 +98,17 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(786, 419);
+            this.label2.Location = new System.Drawing.Point(781, 478);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(87, 16);
             this.label2.TabIndex = 7;
             this.label2.Text = "Russian Ring";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(111, 419);
+            this.label3.Location = new System.Drawing.Point(108, 493);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(114, 16);
             this.label3.TabIndex = 8;

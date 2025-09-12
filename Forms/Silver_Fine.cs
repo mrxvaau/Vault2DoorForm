@@ -11,36 +11,26 @@ using System.Windows.Forms;
 
 namespace Store.Forms
 {
-    public partial class Necklace1 : Form
+    public partial class Silver_Fine : Form
     {
         private readonly int currentUserId;
-        private decimal basePrice = 900;
+        private decimal basePrice = 1500;
         private int selectedKarat = 18;
         private int quantity = 1;
-        public Necklace1(int userId)
+        public Silver_Fine(int userId)
         {
             InitializeComponent();
             currentUserId = userId;
         }
 
-        private void Necklace1_Load(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
-            radio18K.Checked = true;
-            label2.Text = basePrice.ToString("N0") + " $";
-
-            radio18K.CheckedChanged += RadioKarat_CheckedChanged;
-            radio22K.CheckedChanged += RadioKarat_CheckedChanged;
-
-
-
-            lblQuantity.Text = quantity.ToString();
-
-            UpdatePriceDisplay();
+            
         }
 
         private void UpdatePriceDisplay()
         {
-            decimal unitPrice = (selectedKarat == 22) ? 1000m : basePrice;
+            decimal unitPrice = (selectedKarat == 22) ? 1600m : basePrice;
             decimal total = unitPrice * quantity;
             label2.Text = total.ToString("N0") + " $";
         }
@@ -55,10 +45,10 @@ namespace Store.Forms
 
         private void BtnAddToCart_Click(object sender, EventArgs e)
         {
-            var unitPrice = (selectedKarat == 22) ? 1000m : basePrice;
+            var unitPrice = (selectedKarat == 22) ? 1600m : basePrice;
             var item = new CartItem
             {
-                ProductName = "Turkish Necklace",
+                ProductName = "Russian Necklace",
                 Karat = selectedKarat,
                 Price = unitPrice,
                 Quantity = quantity
@@ -88,8 +78,30 @@ namespace Store.Forms
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Necklaces buy4 = new Necklaces(currentUserId);
-            buy4.Show();
+            Necklaces buy6 = new Necklaces(currentUserId);
+            buy6.Show();
+        }
+
+        private void Necklace3_Load(object sender, EventArgs e)
+        {
+            radio18K.Checked = true;
+            lblQuantity.Text = quantity.ToString();
+            label2.Text = basePrice.ToString("N0") + " $";
+
+            radio18K.CheckedChanged += RadioKarat_CheckedChanged;
+            radio22K.CheckedChanged += RadioKarat_CheckedChanged;
+
+            UpdatePriceDisplay();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblQuantity_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

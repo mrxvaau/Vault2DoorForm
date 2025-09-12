@@ -1,5 +1,4 @@
-﻿using Store.Forms;
-using Store.Models;
+﻿using Store.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,20 +11,19 @@ using System.Windows.Forms;
 
 namespace Store.Forms
 {
-    public partial class BuyEarring2 : Form
+    public partial class Silver_Sterling : Form
     {
-
         private readonly int currentUserId;
-        private decimal basePrice = 700;
+        private decimal basePrice = 1100;
         private int selectedKarat = 18;
         private int quantity = 1;
-        public BuyEarring2(int userId)
+        public Silver_Sterling(int userId)
         {
             InitializeComponent();
             currentUserId = userId;
         }
 
-        private void BuyEarring2_Load(object sender, EventArgs e)
+        private void Necklace2_Load(object sender, EventArgs e)
         {
             radio18K.Checked = true;
             label2.Text = basePrice.ToString("N0") + " $";
@@ -40,22 +38,11 @@ namespace Store.Forms
             UpdatePriceDisplay();
         }
 
-
         private void UpdatePriceDisplay()
         {
-            decimal unitPrice = (selectedKarat == 22) ? 900m : basePrice;
+            decimal unitPrice = (selectedKarat == 22) ? 1200m : basePrice;
             decimal total = unitPrice * quantity;
             label2.Text = total.ToString("N0") + " $";
-        }
-
-        private void radio18K_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radio22K_CheckedChanged(object sender, EventArgs e)
-        {
-           
         }
 
         private void RadioKarat_CheckedChanged(object sender, EventArgs e)
@@ -68,10 +55,10 @@ namespace Store.Forms
 
         private void BtnAddToCart_Click(object sender, EventArgs e)
         {
-            var unitPrice = (selectedKarat == 22) ? 900m : basePrice;
+            var unitPrice = (selectedKarat == 22) ? 1200m : basePrice;
             var item = new CartItem
             {
-                ProductName = "Bangladeshi Earring",
+                ProductName = "Bangladeshi Necklace",
                 Karat = selectedKarat,
                 Price = unitPrice,
                 Quantity = quantity
@@ -101,9 +88,8 @@ namespace Store.Forms
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MyEarring ear1 = new MyEarring(currentUserId);
-            ear1.Show();
+            Necklaces buy5 = new Necklaces(currentUserId);
+            buy5.Show();
         }
     }
 }
-

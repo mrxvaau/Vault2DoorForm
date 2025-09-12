@@ -72,7 +72,7 @@
             // pbProfilePicture
             // 
             this.pbProfilePicture.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbProfilePicture.Location = new System.Drawing.Point(23, 68);
+            this.pbProfilePicture.Location = new System.Drawing.Point(664, 68);
             this.pbProfilePicture.Name = "pbProfilePicture";
             this.pbProfilePicture.Size = new System.Drawing.Size(118, 115);
             this.pbProfilePicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -82,7 +82,7 @@
             // 
             // updatepic
             // 
-            this.updatepic.Location = new System.Drawing.Point(158, 137);
+            this.updatepic.Location = new System.Drawing.Point(674, 189);
             this.updatepic.Name = "updatepic";
             this.updatepic.Size = new System.Drawing.Size(97, 46);
             this.updatepic.TabIndex = 2;
@@ -92,7 +92,7 @@
             // 
             // editbutton
             // 
-            this.editbutton.Location = new System.Drawing.Point(620, 133);
+            this.editbutton.Location = new System.Drawing.Point(362, 377);
             this.editbutton.Name = "editbutton";
             this.editbutton.Size = new System.Drawing.Size(99, 50);
             this.editbutton.TabIndex = 3;
@@ -102,7 +102,7 @@
             // 
             // cancelbutton
             // 
-            this.cancelbutton.Location = new System.Drawing.Point(664, 394);
+            this.cancelbutton.Location = new System.Drawing.Point(664, 376);
             this.cancelbutton.Name = "cancelbutton";
             this.cancelbutton.Size = new System.Drawing.Size(79, 44);
             this.cancelbutton.TabIndex = 4;
@@ -112,7 +112,7 @@
             // 
             // savebutton
             // 
-            this.savebutton.Location = new System.Drawing.Point(49, 390);
+            this.savebutton.Location = new System.Drawing.Point(112, 377);
             this.savebutton.Name = "savebutton";
             this.savebutton.Size = new System.Drawing.Size(88, 43);
             this.savebutton.TabIndex = 5;
@@ -123,7 +123,7 @@
             // username
             // 
             this.username.AutoSize = true;
-            this.username.Location = new System.Drawing.Point(46, 240);
+            this.username.Location = new System.Drawing.Point(46, 100);
             this.username.Name = "username";
             this.username.Size = new System.Drawing.Size(73, 16);
             this.username.TabIndex = 6;
@@ -132,7 +132,7 @@
             // email
             // 
             this.email.AutoSize = true;
-            this.email.Location = new System.Drawing.Point(46, 323);
+            this.email.Location = new System.Drawing.Point(46, 156);
             this.email.Name = "email";
             this.email.Size = new System.Drawing.Size(41, 16);
             this.email.TabIndex = 7;
@@ -141,7 +141,7 @@
             // mobile
             // 
             this.mobile.AutoSize = true;
-            this.mobile.Location = new System.Drawing.Point(393, 240);
+            this.mobile.Location = new System.Drawing.Point(45, 213);
             this.mobile.Name = "mobile";
             this.mobile.Size = new System.Drawing.Size(98, 16);
             this.mobile.TabIndex = 8;
@@ -150,7 +150,7 @@
             // address
             // 
             this.address.AutoSize = true;
-            this.address.Location = new System.Drawing.Point(393, 323);
+            this.address.Location = new System.Drawing.Point(45, 267);
             this.address.Name = "address";
             this.address.Size = new System.Drawing.Size(58, 16);
             this.address.TabIndex = 9;
@@ -158,28 +158,28 @@
             // 
             // usernametextBox
             // 
-            this.usernametextBox.Location = new System.Drawing.Point(130, 245);
+            this.usernametextBox.Location = new System.Drawing.Point(160, 94);
             this.usernametextBox.Name = "usernametextBox";
             this.usernametextBox.Size = new System.Drawing.Size(171, 22);
             this.usernametextBox.TabIndex = 10;
             // 
             // emailtextBox
             // 
-            this.emailtextBox.Location = new System.Drawing.Point(130, 317);
+            this.emailtextBox.Location = new System.Drawing.Point(160, 156);
             this.emailtextBox.Name = "emailtextBox";
             this.emailtextBox.Size = new System.Drawing.Size(171, 22);
             this.emailtextBox.TabIndex = 11;
             // 
             // mobiletextBox
             // 
-            this.mobiletextBox.Location = new System.Drawing.Point(508, 240);
+            this.mobiletextBox.Location = new System.Drawing.Point(160, 213);
             this.mobiletextBox.Name = "mobiletextBox";
             this.mobiletextBox.Size = new System.Drawing.Size(171, 22);
             this.mobiletextBox.TabIndex = 12;
             // 
             // addresstextBox
             // 
-            this.addresstextBox.Location = new System.Drawing.Point(508, 323);
+            this.addresstextBox.Location = new System.Drawing.Point(160, 267);
             this.addresstextBox.Name = "addresstextBox";
             this.addresstextBox.Size = new System.Drawing.Size(171, 22);
             this.addresstextBox.TabIndex = 13;

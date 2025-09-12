@@ -35,21 +35,21 @@ namespace Store.Forms
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Necklace3 buy2 = new Necklace3(currentUserId);
+            Silver_Fine buy2 = new Silver_Fine(currentUserId);
             buy2.Show();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Necklace1 buy1 = new Necklace1(currentUserId);
+            Silver_Alloy buy1 = new Silver_Alloy(currentUserId);
             buy1.Show();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Necklace2 buy2 = new Necklace2(currentUserId);
+            Silver_Sterling buy2 = new Silver_Sterling(currentUserId);
             buy2.Show();
         }
     }

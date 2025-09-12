@@ -1,6 +1,6 @@
 ﻿namespace Store.Forms
 {
-    partial class BuyEarring1
+    partial class Silver_Fine
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.LblPlus = new System.Windows.Forms.Label();
             this.LblMinus = new System.Windows.Forms.Label();
@@ -38,22 +37,13 @@
             this.radio22K = new System.Windows.Forms.RadioButton();
             this.radio18K = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.BtnAddToCart = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Store.Properties.Resources.earring1;
-            this.pictureBox1.Location = new System.Drawing.Point(39, 143);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(267, 304);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // panel1
             // 
@@ -65,17 +55,16 @@
             this.panel1.Controls.Add(this.radio22K);
             this.panel1.Controls.Add(this.radio18K);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(355, 143);
+            this.panel1.Location = new System.Drawing.Point(396, 133);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(525, 304);
-            this.panel1.TabIndex = 1;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.panel1.TabIndex = 4;
             // 
             // LblPlus
             // 
             this.LblPlus.AutoSize = true;
             this.LblPlus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblPlus.Location = new System.Drawing.Point(139, 136);
+            this.LblPlus.Location = new System.Drawing.Point(178, 135);
             this.LblPlus.Name = "LblPlus";
             this.LblPlus.Size = new System.Drawing.Size(24, 25);
             this.LblPlus.TabIndex = 7;
@@ -86,7 +75,7 @@
             // 
             this.LblMinus.AutoSize = true;
             this.LblMinus.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblMinus.Location = new System.Drawing.Point(81, 131);
+            this.LblMinus.Location = new System.Drawing.Point(83, 135);
             this.LblMinus.Name = "LblMinus";
             this.LblMinus.Size = new System.Drawing.Size(21, 29);
             this.LblMinus.TabIndex = 6;
@@ -99,9 +88,8 @@
             this.lblQuantity.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQuantity.Location = new System.Drawing.Point(108, 135);
             this.lblQuantity.Name = "lblQuantity";
-            this.lblQuantity.Size = new System.Drawing.Size(64, 25);
+            this.lblQuantity.Size = new System.Drawing.Size(0, 25);
             this.lblQuantity.TabIndex = 5;
-            this.lblQuantity.Text = "label3";
             this.lblQuantity.Click += new System.EventHandler(this.lblQuantity_Click);
             // 
             // price
@@ -119,9 +107,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(108, 64);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 29);
+            this.label2.Size = new System.Drawing.Size(0, 29);
             this.label2.TabIndex = 3;
-            this.label2.Text = "label2";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // radio22K
             // 
@@ -144,23 +132,33 @@
             this.radio18K.TabStop = true;
             this.radio18K.Text = "18 Karat";
             this.radio18K.UseVisualStyleBackColor = true;
-            this.radio18K.CheckedChanged += new System.EventHandler(this.radio18K_CheckedChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(51, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 16);
+            this.label1.Size = new System.Drawing.Size(102, 16);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Turkish Earring";
+            this.label1.Text = "Russian Earring";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Store.Properties.Resources.necklace3;
+            this.pictureBox1.Location = new System.Drawing.Point(68, 133);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(267, 304);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // BtnAddToCart
             // 
-            this.BtnAddToCart.Location = new System.Drawing.Point(489, 453);
+            this.BtnAddToCart.Location = new System.Drawing.Point(509, 443);
             this.BtnAddToCart.Name = "BtnAddToCart";
             this.BtnAddToCart.Size = new System.Drawing.Size(95, 29);
-            this.BtnAddToCart.TabIndex = 2;
+            this.BtnAddToCart.TabIndex = 6;
             this.BtnAddToCart.Text = "Add to Cart";
             this.BtnAddToCart.UseVisualStyleBackColor = true;
             this.BtnAddToCart.Click += new System.EventHandler(this.BtnAddToCart_Click);
@@ -172,26 +170,26 @@
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(47, 42);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 4;
+            this.pictureBox4.TabIndex = 7;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
-            // BuyEarring1
+            // Silver_Fine
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(982, 553);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.BtnAddToCart);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "BuyEarring1";
+            this.Controls.Add(this.panel1);
+            this.Name = "Silver_Fine";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "BuyEarring1";
-            this.Load += new System.EventHandler(this.BuyEarring1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Text = "Silver_Fine";
+            this.Load += new System.EventHandler(this.Necklace3_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
 
@@ -199,17 +197,17 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.RadioButton radio22K;
-        private System.Windows.Forms.RadioButton radio18K;
-        private System.Windows.Forms.Label price;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button BtnAddToCart;
-        private System.Windows.Forms.Label lblQuantity;
         private System.Windows.Forms.Label LblPlus;
         private System.Windows.Forms.Label LblMinus;
+        private System.Windows.Forms.Label lblQuantity;
+        private System.Windows.Forms.Label price;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.RadioButton radio22K;
+        private System.Windows.Forms.RadioButton radio18K;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button BtnAddToCart;
         private System.Windows.Forms.PictureBox pictureBox4;
     }
 }

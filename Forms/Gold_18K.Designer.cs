@@ -1,6 +1,6 @@
 ﻿namespace Store.Forms
 {
-    partial class BuyEarring3
+    partial class Gold_18K
     {
         /// <summary>
         /// Required designer variable.
@@ -174,7 +174,7 @@
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
-            // BuyEarring3
+            // Gold_18K
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -183,9 +183,9 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.BtnAddToCart);
             this.Controls.Add(this.panel1);
-            this.Name = "BuyEarring3";
+            this.Name = "Gold_18K";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "BuyEarring3";
+            this.Text = "Gold_18K";
             this.Load += new System.EventHandler(this.BuyEarring3_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

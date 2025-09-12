@@ -52,5 +52,10 @@ namespace Store.Forms
             Ring3 buy3 = new Ring3(currentUserId);
             buy3.Show();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -68,23 +68,23 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(352, 133);
+            this.textBox1.Location = new System.Drawing.Point(314, 133);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(146, 22);
+            this.textBox1.Size = new System.Drawing.Size(184, 22);
             this.textBox1.TabIndex = 3;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(352, 199);
+            this.textBox2.Location = new System.Drawing.Point(314, 199);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(146, 22);
+            this.textBox2.Size = new System.Drawing.Size(184, 22);
             this.textBox2.TabIndex = 4;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(352, 269);
+            this.textBox3.Location = new System.Drawing.Point(314, 269);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(146, 22);
+            this.textBox3.Size = new System.Drawing.Size(184, 22);
             this.textBox3.TabIndex = 5;
             // 
             // savebutton
@@ -93,13 +93,13 @@
             this.savebutton.Name = "savebutton";
             this.savebutton.Size = new System.Drawing.Size(89, 35);
             this.savebutton.TabIndex = 6;
-            this.savebutton.Text = "Save";
+            this.savebutton.Text = "Rest";
             this.savebutton.UseVisualStyleBackColor = true;
             this.savebutton.Click += new System.EventHandler(this.savebutton_Click);
             // 
             // backbutton
             // 
-            this.backbutton.Location = new System.Drawing.Point(462, 364);
+            this.backbutton.Location = new System.Drawing.Point(460, 364);
             this.backbutton.Name = "backbutton";
             this.backbutton.Size = new System.Drawing.Size(89, 35);
             this.backbutton.TabIndex = 7;

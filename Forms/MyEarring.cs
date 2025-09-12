@@ -38,21 +38,21 @@ namespace Store.Forms
         private void earRing1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            BuyEarring1 buy1 = new BuyEarring1(currentUserId);
+            Gold_24K buy1 = new Gold_24K(currentUserId);
             buy1.Show();
         }
 
         private void earRing2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            BuyEarring2 buy2 = new BuyEarring2(currentUserId);
+            Gold_22K buy2 = new Gold_22K(currentUserId);
             buy2.Show();
         }
 
         private void earRing3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            BuyEarring3 buy3 = new BuyEarring3(currentUserId);
+            Gold_18K buy3 = new Gold_18K(currentUserId);
             buy3.Show();
         }
     }

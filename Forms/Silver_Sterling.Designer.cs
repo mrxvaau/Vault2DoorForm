@@ -1,6 +1,6 @@
 ﻿namespace Store.Forms
 {
-    partial class Necklace3
+    partial class Silver_Sterling
     {
         /// <summary>
         /// Required designer variable.
@@ -55,10 +55,10 @@
             this.panel1.Controls.Add(this.radio22K);
             this.panel1.Controls.Add(this.radio18K);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(396, 133);
+            this.panel1.Location = new System.Drawing.Point(384, 136);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(525, 304);
-            this.panel1.TabIndex = 4;
+            this.panel1.TabIndex = 3;
             // 
             // LblPlus
             // 
@@ -88,9 +88,9 @@
             this.lblQuantity.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQuantity.Location = new System.Drawing.Point(108, 135);
             this.lblQuantity.Name = "lblQuantity";
-            this.lblQuantity.Size = new System.Drawing.Size(0, 25);
+            this.lblQuantity.Size = new System.Drawing.Size(64, 25);
             this.lblQuantity.TabIndex = 5;
-            this.lblQuantity.Click += new System.EventHandler(this.lblQuantity_Click);
+            this.lblQuantity.Text = "label3";
             // 
             // price
             // 
@@ -107,9 +107,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(108, 64);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 29);
+            this.label2.Size = new System.Drawing.Size(79, 29);
             this.label2.TabIndex = 3;
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.label2.Text = "label2";
             // 
             // radio22K
             // 
@@ -138,27 +138,26 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(51, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 16);
+            this.label1.Size = new System.Drawing.Size(129, 16);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Russian Earring";
+            this.label1.Text = "Bangladeshi Earring";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Store.Properties.Resources.necklace3;
-            this.pictureBox1.Location = new System.Drawing.Point(68, 133);
+            this.pictureBox1.Image = global::Store.Properties.Resources.necklace2;
+            this.pictureBox1.Location = new System.Drawing.Point(48, 136);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(267, 304);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // BtnAddToCart
             // 
-            this.BtnAddToCart.Location = new System.Drawing.Point(509, 443);
+            this.BtnAddToCart.Location = new System.Drawing.Point(515, 446);
             this.BtnAddToCart.Name = "BtnAddToCart";
             this.BtnAddToCart.Size = new System.Drawing.Size(95, 29);
-            this.BtnAddToCart.TabIndex = 6;
+            this.BtnAddToCart.TabIndex = 5;
             this.BtnAddToCart.Text = "Add to Cart";
             this.BtnAddToCart.UseVisualStyleBackColor = true;
             this.BtnAddToCart.Click += new System.EventHandler(this.BtnAddToCart_Click);
@@ -170,11 +169,11 @@
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(47, 42);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 7;
+            this.pictureBox4.TabIndex = 6;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
-            // Necklace3
+            // Silver_Sterling
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -183,10 +182,10 @@
             this.Controls.Add(this.BtnAddToCart);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
-            this.Name = "Necklace3";
+            this.Name = "Silver_Sterling";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Necklace3";
-            this.Load += new System.EventHandler(this.Necklace3_Load);
+            this.Text = "Silver_Sterling";
+            this.Load += new System.EventHandler(this.Necklace2_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
