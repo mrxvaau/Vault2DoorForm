@@ -275,37 +275,37 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\rings2.png" />
+    <None Include="Images\Diamond_Natural.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Images\sign-out.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\earring1.png" />
+    <None Include="Images\Gold_24K.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\necklace3.png" />
+    <None Include="Images\Silver_Fine.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\earring2.png" />
+    <None Include="Images\Gold_22K.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\earring3.png" />
+    <None Include="Images\Gold_18K.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Images\Back.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\necklace1.png" />
+    <None Include="Images\Silver_Alloy.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\necklace2.png" />
+    <None Include="Images\Silver_Sterling.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\rings1.png" />
+    <None Include="Images\Diamond_Fancy.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\rings3.png" />
+    <None Include="Images\Diamond_Lab.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

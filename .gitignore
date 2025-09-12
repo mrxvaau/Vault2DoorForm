@@ -41,6 +41,9 @@ bld/
 *.log
 *.svclog
 *.pidb
+.vs/
+.idea/
+
 
 ###############################
 # NuGet
