@@ -249,7 +249,7 @@ namespace Store.Forms
         private void backpic_Click(object sender, EventArgs e)
         {
             this.Hide();
-            JewellerySection jewellery = new JewellerySection(currentUserId);
+            ChoiceSection jewellery = new ChoiceSection(currentUserId);
             jewellery.Show();
         }
 

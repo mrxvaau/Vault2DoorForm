@@ -1,6 +1,6 @@
 ﻿namespace Store.Forms
 {
-    partial class Ring3
+    partial class Diamond_Fancy
     {
         /// <summary>
         /// Required designer variable.
@@ -55,10 +55,10 @@
             this.panel1.Controls.Add(this.radio22K);
             this.panel1.Controls.Add(this.radio18K);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(383, 140);
+            this.panel1.Location = new System.Drawing.Point(387, 126);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(525, 304);
-            this.panel1.TabIndex = 7;
+            this.panel1.TabIndex = 5;
             // 
             // LblPlus
             // 
@@ -121,6 +121,7 @@
             this.radio22K.TabStop = true;
             this.radio22K.Text = "22 Karat";
             this.radio22K.UseVisualStyleBackColor = true;
+            this.radio22K.CheckedChanged += new System.EventHandler(this.radio22K_CheckedChanged);
             // 
             // radio18K
             // 
@@ -132,32 +133,33 @@
             this.radio18K.TabStop = true;
             this.radio18K.Text = "18 Karat";
             this.radio18K.UseVisualStyleBackColor = true;
+            this.radio18K.CheckedChanged += new System.EventHandler(this.radio18K_CheckedChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(51, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 16);
+            this.label1.Size = new System.Drawing.Size(82, 16);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Russian Ring";
+            this.label1.Text = "Turkish Ring";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Store.Properties.Resources.rings3;
-            this.pictureBox1.Location = new System.Drawing.Point(62, 140);
+            this.pictureBox1.Image = global::Store.Properties.Resources.rings1;
+            this.pictureBox1.Location = new System.Drawing.Point(67, 126);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(267, 304);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
             // BtnAddToCart
             // 
-            this.BtnAddToCart.Location = new System.Drawing.Point(515, 450);
+            this.BtnAddToCart.Location = new System.Drawing.Point(500, 447);
             this.BtnAddToCart.Name = "BtnAddToCart";
             this.BtnAddToCart.Size = new System.Drawing.Size(95, 29);
-            this.BtnAddToCart.TabIndex = 9;
+            this.BtnAddToCart.TabIndex = 7;
             this.BtnAddToCart.Text = "Add to Cart";
             this.BtnAddToCart.UseVisualStyleBackColor = true;
             this.BtnAddToCart.Click += new System.EventHandler(this.BtnAddToCart_Click);
@@ -169,11 +171,11 @@
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(47, 42);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 10;
+            this.pictureBox4.TabIndex = 8;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
-            // Ring3
+            // Diamond_Fancy
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -182,10 +184,10 @@
             this.Controls.Add(this.BtnAddToCart);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
-            this.Name = "Ring3";
+            this.Name = "Diamond_Fancy";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Ring3";
-            this.Load += new System.EventHandler(this.Ring3_Load);
+            this.Text = "Diamond_Fancy";
+            this.Load += new System.EventHandler(this.Ring1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

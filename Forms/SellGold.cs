@@ -47,7 +47,7 @@ namespace Store.Forms
                 if (dt.Rows.Count == 0)
                 {
                     MessageBox.Show("No investment has been done yet");
-                    // send back to JewellerySection
+                    // send back to ChoiceSection
                     
                     return;   // <— stop here!
                 }

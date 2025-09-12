@@ -11,14 +11,14 @@ using System.Windows.Forms;
 
 namespace Store.Forms
 {
-    public partial class Ring1 : Form
+    public partial class Diamond_Fancy : Form
     {
 
         private readonly int currentUserId;
         private decimal basePrice = 50;
         private int selectedKarat = 18;
         private int quantity = 1;
-        public Ring1(int userId)
+        public Diamond_Fancy(int userId)
         {
             InitializeComponent();
             currentUserId = userId;
@@ -100,7 +100,7 @@ namespace Store.Forms
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Rings ring1 = new Rings(currentUserId);
+            DiamondVariants ring1 = new DiamondVariants(currentUserId);
             ring1.Show();
         }
     }

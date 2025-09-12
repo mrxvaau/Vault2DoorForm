@@ -1,6 +1,6 @@
 ﻿namespace Store.Forms
 {
-    partial class JewellerySection
+    partial class ChoiceSection
     {
         /// <summary>
         /// Required designer variable.
@@ -145,7 +145,7 @@
             this.label5.TabIndex = 9;
             this.label5.Text = "Welcome to our Jewellery Store";
             // 
-            // JewellerySection
+            // ChoiceSection
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -161,9 +161,9 @@
             this.Controls.Add(this.ringpic20);
             this.Controls.Add(this.signoutbutton);
             this.Controls.Add(this.Profilebutton);
-            this.Name = "JewellerySection";
+            this.Name = "ChoiceSection";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "JewellerySection";
+            this.Text = "ChoiceSection";
             this.Load += new System.EventHandler(this.JewellerySection_Load);
             ((System.ComponentModel.ISupportInitialize)(this.necklace30)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.earring10)).EndInit();

@@ -1,6 +1,6 @@
 ﻿namespace Store.Forms
 {
-    partial class MyEarring
+    partial class GoldVariants
     {
         /// <summary>
         /// Required designer variable.
@@ -123,7 +123,7 @@
             this.label4.TabIndex = 10;
             this.label4.Text = "Select your Favourite Earring";
             // 
-            // MyEarring
+            // GoldVariants
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -136,9 +136,9 @@
             this.Controls.Add(this.earRing1);
             this.Controls.Add(this.earRing3);
             this.Controls.Add(this.earRing2);
-            this.Name = "MyEarring";
+            this.Name = "GoldVariants";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MyEarring";
+            this.Text = "GoldVariants";
             this.Load += new System.EventHandler(this.MyEarring_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.earRing1)).EndInit();

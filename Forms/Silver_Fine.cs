@@ -78,7 +78,7 @@ namespace Store.Forms
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Necklaces buy6 = new Necklaces(currentUserId);
+            SilverVariants buy6 = new SilverVariants(currentUserId);
             buy6.Show();
         }
 

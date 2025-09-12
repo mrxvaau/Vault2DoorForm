@@ -11,19 +11,20 @@ using System.Windows.Forms;
 
 namespace Store.Forms
 {
-    public partial class Ring2 : Form
+    public partial class Diamond_Lab : Form
     {
+
         private readonly int currentUserId;
-        private decimal basePrice = 100;
+        private decimal basePrice = 120;
         private int selectedKarat = 18;
         private int quantity = 1;
-        public Ring2(int userId)
+        public Diamond_Lab(int userId)
         {
             InitializeComponent();
             currentUserId = userId;
         }
 
-        private void Ring2_Load(object sender, EventArgs e)
+        private void Ring3_Load(object sender, EventArgs e)
         {
             radio18K.Checked = true;
             label2.Text = basePrice.ToString("N0") + " $";
@@ -37,11 +38,12 @@ namespace Store.Forms
 
             UpdatePriceDisplay();
 
+
         }
 
         private void UpdatePriceDisplay()
         {
-            decimal unitPrice = (selectedKarat == 22) ? 110m : basePrice;
+            decimal unitPrice = (selectedKarat == 22) ? 150m : basePrice;
             decimal total = unitPrice * quantity;
             label2.Text = total.ToString("N0") + " $";
         }
@@ -56,10 +58,10 @@ namespace Store.Forms
 
         private void BtnAddToCart_Click(object sender, EventArgs e)
         {
-            var unitPrice = (selectedKarat == 22) ? 110m : basePrice;
+            var unitPrice = (selectedKarat == 22) ? 150m : basePrice;
             var item = new CartItem
             {
-                ProductName = "Bangladeshi Ring",
+                ProductName = "Russian Ring",
                 Karat = selectedKarat,
                 Price = unitPrice,
                 Quantity = quantity
@@ -89,8 +91,8 @@ namespace Store.Forms
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Rings ring2 = new Rings(currentUserId);
-            ring2.Show();
+            DiamondVariants ring3 = new DiamondVariants(currentUserId);
+            ring3.Show();
         }
     }
 }

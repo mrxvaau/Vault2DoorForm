@@ -12,12 +12,12 @@ using System.Windows.Forms;
 
 namespace Store.Forms
 {
-    public partial class MyEarring : Form
+    public partial class GoldVariants : Form
     {
 
         private readonly int currentUserId;
         
-        public MyEarring(int userId)
+        public GoldVariants(int userId)
         {
             InitializeComponent();
             this.currentUserId = userId;
@@ -31,7 +31,7 @@ namespace Store.Forms
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             this.Hide();
-            JewellerySection jewellery = new JewellerySection(currentUserId);
+            ChoiceSection jewellery = new ChoiceSection(currentUserId);
             jewellery.Show();
         }
 

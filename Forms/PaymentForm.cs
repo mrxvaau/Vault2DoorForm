@@ -55,7 +55,7 @@ namespace Store.Forms
             MessageBox.Show("Your order is confirmed!", "Order Placed",
                 MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            var jewellery = new JewellerySection(currentUserId);
+            var jewellery = new ChoiceSection(currentUserId);
             this.Hide();
             jewellery.Show();
 

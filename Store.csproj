@@ -84,17 +84,17 @@
     <Compile Include="Forms\InvestmentSection.Designer.cs">
       <DependentUpon>InvestmentSection.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\JewellerySection.cs">
+    <Compile Include="Forms\ChoiceSection.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\JewellerySection.Designer.cs">
-      <DependentUpon>JewellerySection.cs</DependentUpon>
+    <Compile Include="Forms\ChoiceSection.Designer.cs">
+      <DependentUpon>ChoiceSection.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\MyEarring.cs">
+    <Compile Include="Forms\GoldVariants.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\MyEarring.Designer.cs">
-      <DependentUpon>MyEarring.cs</DependentUpon>
+    <Compile Include="Forms\GoldVariants.Designer.cs">
+      <DependentUpon>GoldVariants.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\MyUserProfile.cs">
       <SubType>Form</SubType>
@@ -120,11 +120,11 @@
     <Compile Include="Forms\Silver_Fine.Designer.cs">
       <DependentUpon>Silver_Fine.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Necklaces.cs">
+    <Compile Include="Forms\SilverVariants.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Necklaces.Designer.cs">
-      <DependentUpon>Necklaces.cs</DependentUpon>
+    <Compile Include="Forms\SilverVariants.Designer.cs">
+      <DependentUpon>SilverVariants.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\PaymentForm.cs">
       <SubType>Form</SubType>
@@ -144,29 +144,29 @@
     <Compile Include="Forms\ResetPassword.Designer.cs">
       <DependentUpon>ResetPassword.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Ring1.cs">
+    <Compile Include="Forms\Diamond_Fancy.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Ring1.Designer.cs">
-      <DependentUpon>Ring1.cs</DependentUpon>
+    <Compile Include="Forms\Diamond_Fancy.Designer.cs">
+      <DependentUpon>Diamond_Fancy.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Ring2.cs">
+    <Compile Include="Forms\Diamond_Natural.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Ring2.Designer.cs">
-      <DependentUpon>Ring2.cs</DependentUpon>
+    <Compile Include="Forms\Diamond_Natural.Designer.cs">
+      <DependentUpon>Diamond_Natural.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Ring3.cs">
+    <Compile Include="Forms\Diamond_Lab.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Ring3.Designer.cs">
-      <DependentUpon>Ring3.cs</DependentUpon>
+    <Compile Include="Forms\Diamond_Lab.Designer.cs">
+      <DependentUpon>Diamond_Lab.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Rings.cs">
+    <Compile Include="Forms\DiamondVariants.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Rings.Designer.cs">
-      <DependentUpon>Rings.cs</DependentUpon>
+    <Compile Include="Forms\DiamondVariants.Designer.cs">
+      <DependentUpon>DiamondVariants.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\SellGold.cs">
       <SubType>Form</SubType>
@@ -203,11 +203,11 @@
     <EmbeddedResource Include="Forms\InvestmentSection.resx">
       <DependentUpon>InvestmentSection.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\JewellerySection.resx">
-      <DependentUpon>JewellerySection.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\ChoiceSection.resx">
+      <DependentUpon>ChoiceSection.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\MyEarring.resx">
-      <DependentUpon>MyEarring.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\GoldVariants.resx">
+      <DependentUpon>GoldVariants.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\MyUserProfile.resx">
       <DependentUpon>MyUserProfile.cs</DependentUpon>
@@ -221,8 +221,8 @@
     <EmbeddedResource Include="Forms\Silver_Fine.resx">
       <DependentUpon>Silver_Fine.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Necklaces.resx">
-      <DependentUpon>Necklaces.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\SilverVariants.resx">
+      <DependentUpon>SilverVariants.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\PaymentForm.resx">
       <DependentUpon>PaymentForm.cs</DependentUpon>
@@ -233,17 +233,17 @@
     <EmbeddedResource Include="Forms\ResetPassword.resx">
       <DependentUpon>ResetPassword.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Ring1.resx">
-      <DependentUpon>Ring1.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Diamond_Fancy.resx">
+      <DependentUpon>Diamond_Fancy.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Ring2.resx">
-      <DependentUpon>Ring2.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Diamond_Natural.resx">
+      <DependentUpon>Diamond_Natural.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Ring3.resx">
-      <DependentUpon>Ring3.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Diamond_Lab.resx">
+      <DependentUpon>Diamond_Lab.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Rings.resx">
-      <DependentUpon>Rings.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\DiamondVariants.resx">
+      <DependentUpon>DiamondVariants.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SellGold.resx">
       <DependentUpon>SellGold.cs</DependentUpon>

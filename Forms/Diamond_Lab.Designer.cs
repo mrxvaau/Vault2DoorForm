@@ -1,6 +1,6 @@
 ﻿namespace Store.Forms
 {
-    partial class Ring2
+    partial class Diamond_Lab
     {
         /// <summary>
         /// Required designer variable.
@@ -55,10 +55,10 @@
             this.panel1.Controls.Add(this.radio22K);
             this.panel1.Controls.Add(this.radio18K);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(403, 133);
+            this.panel1.Location = new System.Drawing.Point(383, 140);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(525, 304);
-            this.panel1.TabIndex = 6;
+            this.panel1.TabIndex = 7;
             // 
             // LblPlus
             // 
@@ -138,26 +138,26 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(51, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(114, 16);
+            this.label1.Size = new System.Drawing.Size(87, 16);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Bangladeshi Ring";
+            this.label1.Text = "Russian Ring";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Store.Properties.Resources.rings2;
-            this.pictureBox1.Location = new System.Drawing.Point(82, 133);
+            this.pictureBox1.Image = global::Store.Properties.Resources.rings3;
+            this.pictureBox1.Location = new System.Drawing.Point(62, 140);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(267, 304);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
             // BtnAddToCart
             // 
-            this.BtnAddToCart.Location = new System.Drawing.Point(537, 443);
+            this.BtnAddToCart.Location = new System.Drawing.Point(515, 450);
             this.BtnAddToCart.Name = "BtnAddToCart";
             this.BtnAddToCart.Size = new System.Drawing.Size(95, 29);
-            this.BtnAddToCart.TabIndex = 8;
+            this.BtnAddToCart.TabIndex = 9;
             this.BtnAddToCart.Text = "Add to Cart";
             this.BtnAddToCart.UseVisualStyleBackColor = true;
             this.BtnAddToCart.Click += new System.EventHandler(this.BtnAddToCart_Click);
@@ -169,11 +169,11 @@
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(47, 42);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 9;
+            this.pictureBox4.TabIndex = 10;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
-            // Ring2
+            // Diamond_Lab
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -182,10 +182,10 @@
             this.Controls.Add(this.BtnAddToCart);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
-            this.Name = "Ring2";
+            this.Name = "Diamond_Lab";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Ring2";
-            this.Load += new System.EventHandler(this.Ring2_Load);
+            this.Text = "Diamond_Lab";
+            this.Load += new System.EventHandler(this.Ring3_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

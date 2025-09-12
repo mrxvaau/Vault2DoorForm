@@ -10,17 +10,17 @@ using System.Windows.Forms;
 
 namespace Store.Forms
 {
-    public partial class Rings : Form
+    public partial class SilverVariants : Form
     {
-        private readonly int currentUserId;
 
-        public Rings(int userId)
+        private readonly int currentUserId;
+        public SilverVariants(int userId)
         {
             InitializeComponent();
             this.currentUserId = userId;
         }
 
-        private void Rings_Load(object sender, EventArgs e)
+        private void Necklaces_Load(object sender, EventArgs e)
         {
 
         }
@@ -28,34 +28,29 @@ namespace Store.Forms
         private void backpic_Click(object sender, EventArgs e)
         {
             this.Hide();
-            JewellerySection jewellery = new JewellerySection(currentUserId);
+            ChoiceSection jewellery = new ChoiceSection(currentUserId);
             jewellery.Show();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Ring2 buy2 = new Ring2(currentUserId);
+            Silver_Fine buy2 = new Silver_Fine(currentUserId);
             buy2.Show();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Ring1 buy1 = new Ring1(currentUserId);
+            Silver_Alloy buy1 = new Silver_Alloy(currentUserId);
             buy1.Show();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Ring3 buy3 = new Ring3(currentUserId);
-            buy3.Show();
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
+            Silver_Sterling buy2 = new Silver_Sterling(currentUserId);
+            buy2.Show();
         }
     }
 }

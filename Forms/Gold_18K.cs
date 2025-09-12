@@ -98,7 +98,7 @@ namespace Store.Forms
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MyEarring ear2 = new MyEarring(currentUserId);
+            GoldVariants ear2 = new GoldVariants(currentUserId);
             ear2.Show();
         }
     }

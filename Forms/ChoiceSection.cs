@@ -11,11 +11,11 @@ using System.Windows.Forms;
 
 namespace Store.Forms
 {
-    public partial class JewellerySection : Form
+    public partial class ChoiceSection : Form
     {
         private int currentUserId;
 
-        public JewellerySection(int userId)
+        public ChoiceSection(int userId)
         {
             InitializeComponent();
             this.currentUserId = userId;
@@ -30,21 +30,21 @@ namespace Store.Forms
         private void ringpic20_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Rings R1 = new Rings(currentUserId);
+            DiamondVariants R1 = new DiamondVariants(currentUserId);
             R1.Show();
         }
 
         private void earring10_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MyEarring E1 = new MyEarring(currentUserId);
+            GoldVariants E1 = new GoldVariants(currentUserId);
             E1.Show();
         }
 
         private void necklace30_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Necklaces N1 = new Necklaces(currentUserId);
+            SilverVariants N1 = new SilverVariants(currentUserId);
             N1.Show();
         }
 

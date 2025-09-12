@@ -129,7 +129,7 @@ namespace Store
                     if (user != null)
                     {
                       
-                        JewellerySection jewellery = new JewellerySection(user.UserID);
+                        ChoiceSection jewellery = new ChoiceSection(user.UserID);
                         jewellery.Show();
                     }
                     else

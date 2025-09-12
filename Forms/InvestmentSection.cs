@@ -54,7 +54,7 @@ namespace Store.Forms
             db.AddInvestment(currentUserId, user["Username"].ToString(),
                 quantity * (radio1g.Checked ? 1 : radio5g.Checked ? 5 : 10), Convert.ToDecimal(lblTotal.Text.Replace(" $", "")), unitPrice);
             MessageBox.Show("You have successfully invested in gold.");
-            new JewellerySection(currentUserId).Show();
+            new ChoiceSection(currentUserId).Show();
             Hide();
         }
 
@@ -86,7 +86,7 @@ namespace Store.Forms
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            JewellerySection jewellery = new JewellerySection(currentUserId);
+            ChoiceSection jewellery = new ChoiceSection(currentUserId);
             jewellery.Show();
         }
 
