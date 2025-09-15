@@ -3,68 +3,40 @@
   "WorkspaceRootPath": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\diamond_lab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\diamond_lab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\investmentsection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\investmentsection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\silver_sterling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\silver_sterling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\sellgold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\sellgold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\silvervariants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\silvervariants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\cartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\cartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\silver_fine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\silver_fine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\silvervariants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\silvervariants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\silver_alloy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\silver_alloy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\resetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\resetpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\paymentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\paymentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\myuserprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\myuserprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\investmentsection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\investmentsection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\goldvariants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\goldvariants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\gold_24k.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\gold_24k.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\gold_24k.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\gold_24k.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\gold_22k.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\gold_22k.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\silvervariants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\silvervariants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\gold_18k.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\gold_18k.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\diamond_natural.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\diamond_natural.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\diamondvariants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\diamondvariants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\cartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\cartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,42 +46,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "InvestmentSection.cs [Design]",
+              "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\InvestmentSection.cs",
+              "RelativeDocumentMoniker": "Forms\\InvestmentSection.cs",
+              "ToolTip": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\InvestmentSection.cs [Design]",
+              "RelativeToolTip": "Forms\\InvestmentSection.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T06:34:58.861Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SellGold.cs [Design]",
+              "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\SellGold.cs",
+              "RelativeDocumentMoniker": "Forms\\SellGold.cs",
+              "ToolTip": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\SellGold.cs [Design]",
+              "RelativeToolTip": "Forms\\SellGold.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T06:34:45.664Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CartForm.cs",
+              "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\CartForm.cs",
+              "RelativeDocumentMoniker": "Forms\\CartForm.cs",
+              "ToolTip": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\CartForm.cs",
+              "RelativeToolTip": "Forms\\CartForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T06:21:30.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SilverVariants.cs",
+              "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\SilverVariants.cs",
+              "RelativeDocumentMoniker": "Forms\\SilverVariants.cs",
+              "ToolTip": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\SilverVariants.cs",
+              "RelativeToolTip": "Forms\\SilverVariants.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIA+wCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T06:21:07.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "SilverVariants.cs [Design]",
               "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\SilverVariants.cs",
               "RelativeDocumentMoniker": "Forms\\SilverVariants.cs",
               "ToolTip": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\SilverVariants.cs [Design]",
               "RelativeToolTip": "Forms\\SilverVariants.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T18:54:55.709Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Silver_Sterling.cs [Design]",
-              "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\Silver_Sterling.cs",
-              "RelativeDocumentMoniker": "Forms\\Silver_Sterling.cs",
-              "ToolTip": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\Silver_Sterling.cs [Design]",
-              "RelativeToolTip": "Forms\\Silver_Sterling.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T18:54:21.37Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Silver_Fine.cs [Design]",
-              "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\Silver_Fine.cs",
-              "RelativeDocumentMoniker": "Forms\\Silver_Fine.cs",
-              "ToolTip": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\Silver_Fine.cs [Design]",
-              "RelativeToolTip": "Forms\\Silver_Fine.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T18:54:08.43Z",
+              "WhenOpened": "2025-09-15T06:21:05.136Z",
               "EditorCaption": " [Design]"
             },
             {
@@ -121,151 +119,44 @@
               "ToolTip": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\Silver_Alloy.cs [Design]",
               "RelativeToolTip": "Forms\\Silver_Alloy.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T18:53:43.779Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ResetPassword.cs [Design]",
-              "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\ResetPassword.cs",
-              "RelativeDocumentMoniker": "Forms\\ResetPassword.cs",
-              "ToolTip": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\ResetPassword.cs [Design]",
-              "RelativeToolTip": "Forms\\ResetPassword.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T18:52:55.739Z",
+              "WhenOpened": "2025-09-15T06:21:00.529Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "RegistrationForm.cs [Design]",
-              "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\RegistrationForm.cs",
-              "RelativeDocumentMoniker": "Forms\\RegistrationForm.cs",
-              "ToolTip": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\RegistrationForm.cs [Design]",
-              "RelativeToolTip": "Forms\\RegistrationForm.cs [Design]",
+              "Title": "Gold_24K.cs",
+              "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\Gold_24K.cs",
+              "RelativeDocumentMoniker": "Forms\\Gold_24K.cs",
+              "ToolTip": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\Gold_24K.cs",
+              "RelativeToolTip": "Forms\\Gold_24K.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAIwHIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T18:52:54.182Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-09-15T06:20:20.099Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PaymentForm.cs [Design]",
-              "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\PaymentForm.cs",
-              "RelativeDocumentMoniker": "Forms\\PaymentForm.cs",
-              "ToolTip": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\PaymentForm.cs [Design]",
-              "RelativeToolTip": "Forms\\PaymentForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T18:52:52.831Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MyUserProfile.cs [Design]",
-              "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\MyUserProfile.cs",
-              "RelativeDocumentMoniker": "Forms\\MyUserProfile.cs",
-              "ToolTip": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\MyUserProfile.cs [Design]",
-              "RelativeToolTip": "Forms\\MyUserProfile.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T18:52:51.051Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "InvestmentSection.cs [Design]",
-              "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\InvestmentSection.cs",
-              "RelativeDocumentMoniker": "Forms\\InvestmentSection.cs",
-              "ToolTip": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\InvestmentSection.cs [Design]",
-              "RelativeToolTip": "Forms\\InvestmentSection.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T18:52:40.449Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GoldVariants.cs [Design]",
-              "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\GoldVariants.cs",
-              "RelativeDocumentMoniker": "Forms\\GoldVariants.cs",
-              "ToolTip": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\GoldVariants.cs [Design]",
-              "RelativeToolTip": "Forms\\GoldVariants.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T18:52:36.221Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 6,
               "Title": "Gold_24K.cs [Design]",
               "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\Gold_24K.cs",
               "RelativeDocumentMoniker": "Forms\\Gold_24K.cs",
               "ToolTip": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\Gold_24K.cs [Design]",
               "RelativeToolTip": "Forms\\Gold_24K.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T18:52:08.096Z",
+              "WhenOpened": "2025-09-15T06:20:18.103Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Gold_22K.cs [Design]",
-              "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\Gold_22K.cs",
-              "RelativeDocumentMoniker": "Forms\\Gold_22K.cs",
-              "ToolTip": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\Gold_22K.cs [Design]",
-              "RelativeToolTip": "Forms\\Gold_22K.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "CartForm.cs [Design]",
+              "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\CartForm.cs",
+              "RelativeDocumentMoniker": "Forms\\CartForm.cs",
+              "ToolTip": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\CartForm.cs [Design]",
+              "RelativeToolTip": "Forms\\CartForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T18:51:25.574Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Gold_18K.cs [Design]",
-              "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\Gold_18K.cs",
-              "RelativeDocumentMoniker": "Forms\\Gold_18K.cs",
-              "ToolTip": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\Gold_18K.cs [Design]",
-              "RelativeToolTip": "Forms\\Gold_18K.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T18:50:52.904Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Diamond_Natural.cs [Design]",
-              "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\Diamond_Natural.cs",
-              "RelativeDocumentMoniker": "Forms\\Diamond_Natural.cs",
-              "ToolTip": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\Diamond_Natural.cs [Design]",
-              "RelativeToolTip": "Forms\\Diamond_Natural.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T18:50:50.209Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "DiamondVariants.cs [Design]",
-              "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\DiamondVariants.cs",
-              "RelativeDocumentMoniker": "Forms\\DiamondVariants.cs",
-              "ToolTip": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\DiamondVariants.cs [Design]",
-              "RelativeToolTip": "Forms\\DiamondVariants.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T18:50:48.387Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Diamond_Lab.cs [Design]",
-              "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\Diamond_Lab.cs",
-              "RelativeDocumentMoniker": "Forms\\Diamond_Lab.cs",
-              "ToolTip": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\Diamond_Lab.cs [Design]",
-              "RelativeToolTip": "Forms\\Diamond_Lab.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T18:50:33.988Z",
+              "WhenOpened": "2025-09-15T06:17:16.451Z",
               "EditorCaption": " [Design]"
             }
           ]

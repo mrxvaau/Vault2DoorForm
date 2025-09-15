@@ -71,7 +71,7 @@ namespace Store.Forms
             var unitPrice = (selectedKarat == 22) ? 900m : basePrice;
             var item = new CartItem
             {
-                ProductName = "Bangladeshi Earring",
+                ProductName = "Gold 22k",
                 Karat = selectedKarat,
                 Price = unitPrice,
                 Quantity = quantity
@@ -103,6 +103,11 @@ namespace Store.Forms
             this.Hide();
             GoldVariants ear1 = new GoldVariants(currentUserId);
             ear1.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

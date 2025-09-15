@@ -68,7 +68,7 @@ namespace Store.Forms
             var unitPrice = (selectedKarat == 22) ? 750m : basePrice;
             var item = new CartItem
             {
-                ProductName = "Russian Earring",
+                ProductName = "Gold 18k",
                 Karat = selectedKarat,
                 Price = unitPrice,
                 Quantity = quantity

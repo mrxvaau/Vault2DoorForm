@@ -58,7 +58,7 @@ namespace Store.Forms
             var unitPrice = (selectedKarat == 22) ? 1000m : basePrice;
             var item = new CartItem
             {
-                ProductName = "Turkish Necklace",
+                ProductName = "Silver Alloy",
                 Karat = selectedKarat,
                 Price = unitPrice,
                 Quantity = quantity

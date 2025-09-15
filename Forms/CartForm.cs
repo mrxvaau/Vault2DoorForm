@@ -39,5 +39,25 @@ namespace Store.Forms
             this.Hide();
             payment.Show();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            string message = "Do you want to return to the Main menu? Once you click Yes, all products in your cart will be dismissed.";
+            string title = "Return Window";
+            MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+            DialogResult result = MessageBox.Show(message, title, buttons);
+            if (result == DialogResult.Yes)
+            {
+                this.Close();
+                ChoiceSection jewellery = new ChoiceSection(currentUserId);
+                jewellery.Show();
+            }
+            else
+            {
+                // Do nothing
+            }
+             
+           
+        }
     }
 }

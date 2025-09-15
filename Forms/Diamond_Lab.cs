@@ -61,7 +61,7 @@ namespace Store.Forms
             var unitPrice = (selectedKarat == 22) ? 150m : basePrice;
             var item = new CartItem
             {
-                ProductName = "Russian Ring",
+                ProductName = " Lab Grown Diamond  ",
                 Karat = selectedKarat,
                 Price = unitPrice,
                 Quantity = quantity

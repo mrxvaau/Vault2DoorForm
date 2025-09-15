@@ -70,7 +70,7 @@ namespace Store.Forms
             var unitPrice = (selectedKarat == 22) ? 60m : basePrice;
             var item = new CartItem
             {
-                ProductName = "Turkish Ring",
+                ProductName = "Diamond Fancy",
                 Karat = selectedKarat,
                 Price = unitPrice,
                 Quantity = quantity
@@ -102,6 +102,11 @@ namespace Store.Forms
             this.Hide();
             DiamondVariants ring1 = new DiamondVariants(currentUserId);
             ring1.Show();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

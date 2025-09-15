@@ -59,7 +59,7 @@ namespace Store.Forms
             var unitPrice = (selectedKarat == 22) ? 110m : basePrice;
             var item = new CartItem
             {
-                ProductName = "Bangladeshi Ring",
+                ProductName = "Diamond Natural",
                 Karat = selectedKarat,
                 Price = unitPrice,
                 Quantity = quantity
@@ -91,6 +91,11 @@ namespace Store.Forms
             this.Hide();
             DiamondVariants ring2 = new DiamondVariants(currentUserId);
             ring2.Show();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
