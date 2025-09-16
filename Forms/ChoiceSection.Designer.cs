@@ -28,38 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Profilebutton = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             this.necklace30 = new System.Windows.Forms.PictureBox();
             this.earring10 = new System.Windows.Forms.PictureBox();
             this.ringpic20 = new System.Windows.Forms.PictureBox();
             this.signoutbutton = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.necklace30)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.earring10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ringpic20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // Profilebutton
+            // label4
             // 
-            this.Profilebutton.Location = new System.Drawing.Point(12, 16);
-            this.Profilebutton.Name = "Profilebutton";
-            this.Profilebutton.Size = new System.Drawing.Size(88, 41);
-            this.Profilebutton.TabIndex = 0;
-            this.Profilebutton.Text = "My Profile";
-            this.Profilebutton.UseVisualStyleBackColor = true;
-            this.Profilebutton.Click += new System.EventHandler(this.Profilebutton_Click);
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(597, 604);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(119, 20);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Let\'s Invest  ";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // necklace30
             // 
+            this.necklace30.BackColor = System.Drawing.Color.Transparent;
             this.necklace30.Image = global::Store.Properties.Resources.silverfine;
-            this.necklace30.Location = new System.Drawing.Point(687, 169);
+            this.necklace30.Location = new System.Drawing.Point(872, 267);
             this.necklace30.Name = "necklace30";
-            this.necklace30.Size = new System.Drawing.Size(257, 262);
+            this.necklace30.Size = new System.Drawing.Size(290, 279);
             this.necklace30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.necklace30.TabIndex = 4;
             this.necklace30.TabStop = false;
@@ -67,10 +66,11 @@
             // 
             // earring10
             // 
+            this.earring10.BackColor = System.Drawing.Color.Transparent;
             this.earring10.Image = global::Store.Properties.Resources.gold24;
-            this.earring10.Location = new System.Drawing.Point(367, 169);
+            this.earring10.Location = new System.Drawing.Point(469, 267);
             this.earring10.Name = "earring10";
-            this.earring10.Size = new System.Drawing.Size(274, 262);
+            this.earring10.Size = new System.Drawing.Size(304, 279);
             this.earring10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.earring10.TabIndex = 3;
             this.earring10.TabStop = false;
@@ -78,11 +78,12 @@
             // 
             // ringpic20
             // 
+            this.ringpic20.BackColor = System.Drawing.Color.Transparent;
             this.ringpic20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ringpic20.Image = global::Store.Properties.Resources.diamondnatural;
-            this.ringpic20.Location = new System.Drawing.Point(51, 155);
+            this.ringpic20.Location = new System.Drawing.Point(141, 262);
             this.ringpic20.Name = "ringpic20";
-            this.ringpic20.Size = new System.Drawing.Size(310, 276);
+            this.ringpic20.Size = new System.Drawing.Size(264, 260);
             this.ringpic20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.ringpic20.TabIndex = 2;
             this.ringpic20.TabStop = false;
@@ -90,93 +91,40 @@
             // 
             // signoutbutton
             // 
+            this.signoutbutton.BackColor = System.Drawing.Color.Navy;
             this.signoutbutton.BackgroundImage = global::Store.Properties.Resources.Back;
             this.signoutbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.signoutbutton.Location = new System.Drawing.Point(884, 12);
+            this.signoutbutton.Location = new System.Drawing.Point(1073, 116);
             this.signoutbutton.Name = "signoutbutton";
             this.signoutbutton.Size = new System.Drawing.Size(72, 61);
             this.signoutbutton.TabIndex = 1;
-            this.signoutbutton.UseVisualStyleBackColor = true;
+            this.signoutbutton.UseVisualStyleBackColor = false;
             this.signoutbutton.Click += new System.EventHandler(this.signoutbutton_Click);
             // 
-            // label1
+            // pictureBox1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(219, 461);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 16);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Diamond";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(520, 461);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(36, 16);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Gold";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(822, 461);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 16);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Silver";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(479, 507);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(119, 20);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Let\'s Invest  ";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(257, 26);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(440, 31);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Welcome to our Metal Trading Store";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.label6.Location = new System.Drawing.Point(378, 116);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(245, 16);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Select your chosen material to purchase";
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::Store.Properties.Resources.profile;
+            this.pictureBox1.Location = new System.Drawing.Point(69, 116);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(140, 73);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // ChoiceSection
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.ClientSize = new System.Drawing.Size(982, 553);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
+            this.BackgroundImage = global::Store.Properties.Resources.Choice;
+            this.ClientSize = new System.Drawing.Size(1174, 702);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.necklace30);
             this.Controls.Add(this.earring10);
             this.Controls.Add(this.ringpic20);
             this.Controls.Add(this.signoutbutton);
-            this.Controls.Add(this.Profilebutton);
             this.Name = "ChoiceSection";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ChoiceSection";
@@ -184,23 +132,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.necklace30)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.earring10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ringpic20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button Profilebutton;
         private System.Windows.Forms.Button signoutbutton;
         private System.Windows.Forms.PictureBox ringpic20;
         private System.Windows.Forms.PictureBox earring10;
         private System.Windows.Forms.PictureBox necklace30;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
