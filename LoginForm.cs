@@ -148,5 +148,10 @@ namespace Store
         {
 
         }
+
+        private void passwordtext_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
