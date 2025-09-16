@@ -60,5 +60,10 @@ namespace Store.Forms
             jewellery.Show();
 
         }
+
+        private void radioBkash_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -89,22 +89,25 @@
             // 
             // savebutton
             // 
-            this.savebutton.Location = new System.Drawing.Point(226, 364);
+            this.savebutton.BackColor = System.Drawing.Color.Lime;
+            this.savebutton.Location = new System.Drawing.Point(326, 336);
             this.savebutton.Name = "savebutton";
-            this.savebutton.Size = new System.Drawing.Size(89, 35);
+            this.savebutton.Size = new System.Drawing.Size(131, 37);
             this.savebutton.TabIndex = 6;
-            this.savebutton.Text = "Rest";
-            this.savebutton.UseVisualStyleBackColor = true;
+            this.savebutton.Text = "Rest Password";
+            this.savebutton.UseVisualStyleBackColor = false;
             this.savebutton.Click += new System.EventHandler(this.savebutton_Click);
             // 
             // backbutton
             // 
-            this.backbutton.Location = new System.Drawing.Point(460, 364);
+            this.backbutton.BackColor = System.Drawing.Color.Red;
+            this.backbutton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.backbutton.Location = new System.Drawing.Point(668, 64);
             this.backbutton.Name = "backbutton";
             this.backbutton.Size = new System.Drawing.Size(89, 35);
             this.backbutton.TabIndex = 7;
             this.backbutton.Text = "Back";
-            this.backbutton.UseVisualStyleBackColor = true;
+            this.backbutton.UseVisualStyleBackColor = false;
             this.backbutton.Click += new System.EventHandler(this.backbutton_Click);
             // 
             // label4

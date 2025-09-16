@@ -90,7 +90,7 @@
             // 
             // lblPlus
             // 
-            this.lblPlus.Location = new System.Drawing.Point(404, 287);
+            this.lblPlus.Location = new System.Drawing.Point(427, 287);
             this.lblPlus.Name = "lblPlus";
             this.lblPlus.Size = new System.Drawing.Size(64, 32);
             this.lblPlus.TabIndex = 4;

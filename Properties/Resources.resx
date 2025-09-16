@@ -154,4 +154,13 @@
   <data name="rings3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\Diamond_Lab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="BKash-Icon-Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\BKash-Icon-Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nagad-Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Nagad-Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cash-on-delivery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\cash-on-delivery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
