@@ -73,6 +73,16 @@ namespace Store.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap basebg {
+            get {
+                object obj = ResourceManager.GetObject("basebg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BKash_Icon_Logo {
             get {
                 object obj = ResourceManager.GetObject("BKash-Icon-Logo", resourceCulture);

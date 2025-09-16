@@ -42,17 +42,19 @@
             // 
             // BtnSavePrice
             // 
+            this.BtnSavePrice.BackColor = System.Drawing.SystemColors.GrayText;
             this.BtnSavePrice.Font = new System.Drawing.Font("Microsoft JhengHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSavePrice.Location = new System.Drawing.Point(237, 14);
             this.BtnSavePrice.Name = "BtnSavePrice";
-            this.BtnSavePrice.Size = new System.Drawing.Size(77, 53);
+            this.BtnSavePrice.Size = new System.Drawing.Size(140, 53);
             this.BtnSavePrice.TabIndex = 0;
             this.BtnSavePrice.Text = "Initiate Price";
-            this.BtnSavePrice.UseVisualStyleBackColor = true;
+            this.BtnSavePrice.UseVisualStyleBackColor = false;
             this.BtnSavePrice.Click += new System.EventHandler(this.BtnSavePrice_Click);
             // 
             // panel1
             // 
+            this.panel1.BackgroundImage = global::Store.Properties.Resources.basebg;
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.TxtSearch);
             this.panel1.Controls.Add(this.signoutbutton);
@@ -66,6 +68,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.GrayText;
             this.label1.Font = new System.Drawing.Font("Microsoft JhengHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(717, 32);
             this.label1.Name = "label1";
@@ -75,6 +78,7 @@
             // 
             // TxtSearch
             // 
+            this.TxtSearch.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.TxtSearch.Location = new System.Drawing.Point(463, 30);
             this.TxtSearch.Name = "TxtSearch";
             this.TxtSearch.Size = new System.Drawing.Size(238, 22);
@@ -83,17 +87,19 @@
             // 
             // signoutbutton
             // 
+            this.signoutbutton.BackColor = System.Drawing.Color.Transparent;
             this.signoutbutton.BackgroundImage = global::Store.Properties.Resources.sign_out;
             this.signoutbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.signoutbutton.Location = new System.Drawing.Point(883, 13);
+            this.signoutbutton.Location = new System.Drawing.Point(877, 22);
             this.signoutbutton.Name = "signoutbutton";
             this.signoutbutton.Size = new System.Drawing.Size(72, 39);
             this.signoutbutton.TabIndex = 2;
-            this.signoutbutton.UseVisualStyleBackColor = true;
+            this.signoutbutton.UseVisualStyleBackColor = false;
             this.signoutbutton.Click += new System.EventHandler(this.signoutbutton_Click);
             // 
             // numericGramPrice
             // 
+            this.numericGramPrice.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.numericGramPrice.Location = new System.Drawing.Point(59, 30);
             this.numericGramPrice.Name = "numericGramPrice";
             this.numericGramPrice.Size = new System.Drawing.Size(163, 22);
@@ -102,6 +108,7 @@
             // 
             // dgvInvestments
             // 
+            this.dgvInvestments.BackgroundColor = System.Drawing.Color.SlateGray;
             this.dgvInvestments.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvInvestments.Location = new System.Drawing.Point(10, 112);
             this.dgvInvestments.Name = "dgvInvestments";
@@ -115,6 +122,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Store.Properties.Resources.basebg;
             this.ClientSize = new System.Drawing.Size(982, 553);
             this.Controls.Add(this.dgvInvestments);
             this.Controls.Add(this.panel1);
