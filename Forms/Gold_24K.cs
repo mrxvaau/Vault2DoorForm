@@ -16,7 +16,7 @@ namespace Store.Forms
 
         private readonly int currentUserId;
         private decimal basePrice = 400;
-        private int selectedKarat = 18;
+        private int selectedKarat = 24;
         private int quantity = 1;
 
         public Gold_24K(int userId)
@@ -44,7 +44,7 @@ namespace Store.Forms
 
         private void UpdatePriceDisplay()
         {
-            decimal unitPrice = (selectedKarat == 22) ? 500m : basePrice;
+            decimal unitPrice = (selectedKarat == 24) ? 500m : basePrice;
             decimal total = unitPrice * quantity;
             label2.Text = total.ToString("N0") + " $";
         }
@@ -63,7 +63,7 @@ namespace Store.Forms
         private void RadioKarat_CheckedChanged(object sender, EventArgs e)
         {
 
-            selectedKarat = radio22K.Checked ? 22 : 18;
+            selectedKarat = radio22K.Checked ? 24 : 18;
             UpdatePriceDisplay();
 
         }
@@ -75,7 +75,7 @@ namespace Store.Forms
 
         private void BtnAddToCart_Click(object sender, EventArgs e)
         {
-            var unitPrice = (selectedKarat == 22) ? 500m : basePrice;
+            var unitPrice = (selectedKarat == 24) ? 500m : basePrice;
             var item = new CartItem
             {
                 ProductName = "Gold 24k",
@@ -115,6 +115,11 @@ namespace Store.Forms
             this.Hide();
             GoldVariants ear1 = new GoldVariants(currentUserId);
             ear1.Show();
+        }
+
+        private void radio22K_CheckedChanged_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

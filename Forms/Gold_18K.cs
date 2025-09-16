@@ -45,7 +45,7 @@ namespace Store.Forms
 
         private void UpdatePriceDisplay()
         {
-            decimal unitPrice = (selectedKarat == 22) ? 750m : basePrice;
+            decimal unitPrice = (selectedKarat == 18) ? 750m : basePrice;
             decimal total = unitPrice * quantity;
             label2.Text = total.ToString("N0") + " $";
         }

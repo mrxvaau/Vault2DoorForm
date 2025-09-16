@@ -17,7 +17,7 @@ namespace Store.Forms
 
         private readonly int currentUserId;
         private decimal basePrice = 700;
-        private int selectedKarat = 18;
+        private int selectedKarat = 22;
         private int quantity = 1;
         public Gold_22K(int userId)
         {
@@ -106,6 +106,11 @@ namespace Store.Forms
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }

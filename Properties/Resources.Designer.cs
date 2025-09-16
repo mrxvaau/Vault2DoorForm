@@ -113,6 +113,46 @@ namespace Store.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Choice {
+            get {
+                object obj = ResourceManager.GetObject("Choice", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap diamondcartFancy {
+            get {
+                object obj = ResourceManager.GetObject("diamondcartFancy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap diamondcartLab {
+            get {
+                object obj = ResourceManager.GetObject("diamondcartLab", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap diamondcartNatural {
+            get {
+                object obj = ResourceManager.GetObject("diamondcartNatural", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap diamondfancy {
             get {
                 object obj = ResourceManager.GetObject("diamondfancy", resourceCulture);
@@ -153,6 +193,16 @@ namespace Store.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap diamondV {
+            get {
+                object obj = ResourceManager.GetObject("diamondV", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gold18 {
             get {
                 object obj = ResourceManager.GetObject("gold18", resourceCulture);
@@ -176,6 +226,46 @@ namespace Store.Properties {
         internal static System.Drawing.Bitmap gold24 {
             get {
                 object obj = ResourceManager.GetObject("gold24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap goldcart18 {
+            get {
+                object obj = ResourceManager.GetObject("goldcart18", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap goldcart22 {
+            get {
+                object obj = ResourceManager.GetObject("goldcart22", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap goldcart24 {
+            get {
+                object obj = ResourceManager.GetObject("goldcart24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap goldV {
+            get {
+                object obj = ResourceManager.GetObject("goldV", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -263,6 +353,36 @@ namespace Store.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap silvercartalloy {
+            get {
+                object obj = ResourceManager.GetObject("silvercartalloy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap silvercartfine {
+            get {
+                object obj = ResourceManager.GetObject("silvercartfine", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap silvercartsterling {
+            get {
+                object obj = ResourceManager.GetObject("silvercartsterling", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap silverfine {
             get {
                 object obj = ResourceManager.GetObject("silverfine", resourceCulture);
@@ -276,6 +396,16 @@ namespace Store.Properties {
         internal static System.Drawing.Bitmap silversterling {
             get {
                 object obj = ResourceManager.GetObject("silversterling", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap silverV {
+            get {
+                object obj = ResourceManager.GetObject("silverV", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

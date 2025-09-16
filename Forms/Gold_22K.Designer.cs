@@ -53,12 +53,12 @@
             this.panel1.Controls.Add(this.price);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.radio22K);
-            this.panel1.Controls.Add(this.radio18K);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(400, 127);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(525, 304);
             this.panel1.TabIndex = 2;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // LblPlus
             // 
@@ -114,7 +114,7 @@
             // radio22K
             // 
             this.radio22K.AutoSize = true;
-            this.radio22K.Location = new System.Drawing.Point(223, 185);
+            this.radio22K.Location = new System.Drawing.Point(54, 195);
             this.radio22K.Name = "radio22K";
             this.radio22K.Size = new System.Drawing.Size(76, 20);
             this.radio22K.TabIndex = 2;
@@ -126,12 +126,12 @@
             // radio18K
             // 
             this.radio18K.AutoSize = true;
-            this.radio18K.Location = new System.Drawing.Point(72, 185);
+            this.radio18K.Location = new System.Drawing.Point(963, 551);
             this.radio18K.Name = "radio18K";
-            this.radio18K.Size = new System.Drawing.Size(76, 20);
+            this.radio18K.Size = new System.Drawing.Size(31, 20);
             this.radio18K.TabIndex = 1;
             this.radio18K.TabStop = true;
-            this.radio18K.Text = "18 Karat";
+            this.radio18K.Text = " ";
             this.radio18K.UseVisualStyleBackColor = true;
             this.radio18K.CheckedChanged += new System.EventHandler(this.radio18K_CheckedChanged);
             // 
@@ -185,6 +185,7 @@
             this.Controls.Add(this.BtnAddToCart);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.radio18K);
             this.Name = "Gold_22K";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gold_22K";
@@ -194,6 +195,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
