@@ -30,11 +30,11 @@
         {
             this.BtnSavePrice = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.TxtSearch = new System.Windows.Forms.TextBox();
             this.signoutbutton = new System.Windows.Forms.Button();
             this.numericGramPrice = new System.Windows.Forms.NumericUpDown();
             this.dgvInvestments = new System.Windows.Forms.DataGridView();
-            this.TxtSearch = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericGramPrice)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvInvestments)).BeginInit();
@@ -62,6 +62,24 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(970, 96);
             this.panel1.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft JhengHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(717, 32);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(58, 19);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Search";
+            // 
+            // TxtSearch
+            // 
+            this.TxtSearch.Location = new System.Drawing.Point(463, 30);
+            this.TxtSearch.Name = "TxtSearch";
+            this.TxtSearch.Size = new System.Drawing.Size(238, 22);
+            this.TxtSearch.TabIndex = 3;
+            this.TxtSearch.TextChanged += new System.EventHandler(this.TxtSearch_TextChanged);
             // 
             // signoutbutton
             // 
@@ -92,24 +110,6 @@
             this.dgvInvestments.Size = new System.Drawing.Size(964, 430);
             this.dgvInvestments.TabIndex = 2;
             this.dgvInvestments.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvInvestments_CellContentClick);
-            // 
-            // TxtSearch
-            // 
-            this.TxtSearch.Location = new System.Drawing.Point(463, 30);
-            this.TxtSearch.Name = "TxtSearch";
-            this.TxtSearch.Size = new System.Drawing.Size(238, 22);
-            this.TxtSearch.TabIndex = 3;
-            this.TxtSearch.TextChanged += new System.EventHandler(this.TxtSearch_TextChanged);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft JhengHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(717, 32);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(58, 19);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Search";
             // 
             // AdminDashboard
             // 

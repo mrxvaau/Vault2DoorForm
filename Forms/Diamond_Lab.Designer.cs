@@ -145,7 +145,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Store.Properties.Resources.rings3;
+            this.pictureBox1.Image = global::Store.Properties.Resources.diamondlab;
             this.pictureBox1.Location = new System.Drawing.Point(62, 140);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(267, 304);

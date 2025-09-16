@@ -118,40 +118,40 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="rings1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="diamondfancy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\Diamond_Fancy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="earring1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="gold24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\Gold_24K.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="earring2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="gold22" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\Gold_22K.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="necklace1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="silveralloy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\Silver_Alloy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rings21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="diamondnatural24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\Diamond_Natural.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\Back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="necklace2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="silversterling" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\Silver_Sterling.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sign-out" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\sign-out.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rings2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="diamondnatural" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\Diamond_Natural.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="earring3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="gold18" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\Gold_18K.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="necklace3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="silverfine" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\Silver_Fine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rings3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="diamondlab" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\Diamond_Lab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BKash-Icon-Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -162,5 +162,26 @@
   </data>
   <data name="cash-on-delivery" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\cash-on-delivery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="register" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\register.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\rest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="payment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\payment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\cart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="invest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\invest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="userProfile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\userProfile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

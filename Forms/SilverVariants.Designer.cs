@@ -52,7 +52,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::Store.Properties.Resources.necklace2;
+            this.pictureBox3.Image = global::Store.Properties.Resources.silversterling;
             this.pictureBox3.Location = new System.Drawing.Point(342, 142);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(326, 325);
@@ -63,7 +63,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Store.Properties.Resources.necklace1;
+            this.pictureBox2.Image = global::Store.Properties.Resources.silveralloy;
             this.pictureBox2.Location = new System.Drawing.Point(12, 142);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(344, 325);
@@ -74,7 +74,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Store.Properties.Resources.necklace3;
+            this.pictureBox1.Image = global::Store.Properties.Resources.silverfine;
             this.pictureBox1.Location = new System.Drawing.Point(642, 142);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(381, 325);

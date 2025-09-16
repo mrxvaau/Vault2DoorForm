@@ -83,6 +83,16 @@ namespace Store.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cart {
+            get {
+                object obj = ResourceManager.GetObject("cart", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cash_on_delivery {
             get {
                 object obj = ResourceManager.GetObject("cash-on-delivery", resourceCulture);
@@ -93,9 +103,9 @@ namespace Store.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap earring1 {
+        internal static System.Drawing.Bitmap diamondfancy {
             get {
-                object obj = ResourceManager.GetObject("earring1", resourceCulture);
+                object obj = ResourceManager.GetObject("diamondfancy", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +113,9 @@ namespace Store.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap earring2 {
+        internal static System.Drawing.Bitmap diamondlab {
             get {
-                object obj = ResourceManager.GetObject("earring2", resourceCulture);
+                object obj = ResourceManager.GetObject("diamondlab", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +123,69 @@ namespace Store.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap earring3 {
+        internal static System.Drawing.Bitmap diamondnatural {
             get {
-                object obj = ResourceManager.GetObject("earring3", resourceCulture);
+                object obj = ResourceManager.GetObject("diamondnatural", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap diamondnatural24 {
+            get {
+                object obj = ResourceManager.GetObject("diamondnatural24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gold18 {
+            get {
+                object obj = ResourceManager.GetObject("gold18", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gold22 {
+            get {
+                object obj = ResourceManager.GetObject("gold22", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gold24 {
+            get {
+                object obj = ResourceManager.GetObject("gold24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap invest {
+            get {
+                object obj = ResourceManager.GetObject("invest", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap login {
+            get {
+                object obj = ResourceManager.GetObject("login", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +203,9 @@ namespace Store.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap necklace1 {
+        internal static System.Drawing.Bitmap payment {
             get {
-                object obj = ResourceManager.GetObject("necklace1", resourceCulture);
+                object obj = ResourceManager.GetObject("payment", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +213,9 @@ namespace Store.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap necklace2 {
+        internal static System.Drawing.Bitmap register {
             get {
-                object obj = ResourceManager.GetObject("necklace2", resourceCulture);
+                object obj = ResourceManager.GetObject("register", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,49 +223,9 @@ namespace Store.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap necklace3 {
+        internal static System.Drawing.Bitmap rest {
             get {
-                object obj = ResourceManager.GetObject("necklace3", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap rings1 {
-            get {
-                object obj = ResourceManager.GetObject("rings1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap rings2 {
-            get {
-                object obj = ResourceManager.GetObject("rings2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap rings21 {
-            get {
-                object obj = ResourceManager.GetObject("rings21", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap rings3 {
-            get {
-                object obj = ResourceManager.GetObject("rings3", resourceCulture);
+                object obj = ResourceManager.GetObject("rest", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -206,6 +236,46 @@ namespace Store.Properties {
         internal static System.Drawing.Bitmap sign_out {
             get {
                 object obj = ResourceManager.GetObject("sign-out", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap silveralloy {
+            get {
+                object obj = ResourceManager.GetObject("silveralloy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap silverfine {
+            get {
+                object obj = ResourceManager.GetObject("silverfine", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap silversterling {
+            get {
+                object obj = ResourceManager.GetObject("silversterling", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap userProfile {
+            get {
+                object obj = ResourceManager.GetObject("userProfile", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

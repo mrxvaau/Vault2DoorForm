@@ -52,7 +52,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::Store.Properties.Resources.rings3;
+            this.pictureBox3.Image = global::Store.Properties.Resources.diamondlab;
             this.pictureBox3.Location = new System.Drawing.Point(665, 102);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(280, 317);
@@ -63,7 +63,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Store.Properties.Resources.rings1;
+            this.pictureBox2.Image = global::Store.Properties.Resources.diamondfancy;
             this.pictureBox2.Location = new System.Drawing.Point(364, 106);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(263, 313);
@@ -74,7 +74,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Store.Properties.Resources.rings2;
+            this.pictureBox1.Image = global::Store.Properties.Resources.diamondnatural;
             this.pictureBox1.Location = new System.Drawing.Point(39, 91);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(280, 313);

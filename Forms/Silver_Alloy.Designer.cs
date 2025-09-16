@@ -144,7 +144,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Store.Properties.Resources.necklace1;
+            this.pictureBox1.Image = global::Store.Properties.Resources.silveralloy;
             this.pictureBox1.Location = new System.Drawing.Point(37, 135);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(267, 304);

@@ -66,7 +66,7 @@
             // radioBkash
             // 
             this.radioBkash.AutoSize = true;
-            this.radioBkash.Location = new System.Drawing.Point(166, 262);
+            this.radioBkash.Location = new System.Drawing.Point(182, 262);
             this.radioBkash.Name = "radioBkash";
             this.radioBkash.Size = new System.Drawing.Size(66, 20);
             this.radioBkash.TabIndex = 2;
@@ -78,7 +78,7 @@
             // radioNagad
             // 
             this.radioNagad.AutoSize = true;
-            this.radioNagad.Location = new System.Drawing.Point(345, 262);
+            this.radioNagad.Location = new System.Drawing.Point(356, 262);
             this.radioNagad.Name = "radioNagad";
             this.radioNagad.Size = new System.Drawing.Size(70, 20);
             this.radioNagad.TabIndex = 3;
@@ -89,7 +89,7 @@
             // radiocash
             // 
             this.radiocash.AutoSize = true;
-            this.radiocash.Location = new System.Drawing.Point(513, 262);
+            this.radiocash.Location = new System.Drawing.Point(519, 262);
             this.radiocash.Name = "radiocash";
             this.radiocash.Size = new System.Drawing.Size(130, 20);
             this.radiocash.TabIndex = 4;

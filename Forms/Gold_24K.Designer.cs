@@ -47,7 +47,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Store.Properties.Resources.earring1;
+            this.pictureBox1.Image = global::Store.Properties.Resources.gold24;
             this.pictureBox1.Location = new System.Drawing.Point(68, 118);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(293, 319);

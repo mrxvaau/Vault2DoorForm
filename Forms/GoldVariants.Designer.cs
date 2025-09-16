@@ -52,7 +52,7 @@
             // 
             // earRing1
             // 
-            this.earRing1.Image = global::Store.Properties.Resources.earring1;
+            this.earRing1.Image = global::Store.Properties.Resources.gold24;
             this.earRing1.Location = new System.Drawing.Point(12, 103);
             this.earRing1.Name = "earRing1";
             this.earRing1.Size = new System.Drawing.Size(280, 347);
@@ -63,7 +63,7 @@
             // 
             // earRing3
             // 
-            this.earRing3.Image = global::Store.Properties.Resources.earring3;
+            this.earRing3.Image = global::Store.Properties.Resources.gold18;
             this.earRing3.Location = new System.Drawing.Point(749, 105);
             this.earRing3.Name = "earRing3";
             this.earRing3.Size = new System.Drawing.Size(188, 345);
@@ -74,7 +74,7 @@
             // 
             // earRing2
             // 
-            this.earRing2.Image = global::Store.Properties.Resources.earring2;
+            this.earRing2.Image = global::Store.Properties.Resources.gold22;
             this.earRing2.Location = new System.Drawing.Point(421, 103);
             this.earRing2.Name = "earRing2";
             this.earRing2.Size = new System.Drawing.Size(192, 345);

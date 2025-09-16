@@ -56,7 +56,7 @@
             // 
             // necklace30
             // 
-            this.necklace30.Image = global::Store.Properties.Resources.necklace3;
+            this.necklace30.Image = global::Store.Properties.Resources.silverfine;
             this.necklace30.Location = new System.Drawing.Point(687, 169);
             this.necklace30.Name = "necklace30";
             this.necklace30.Size = new System.Drawing.Size(257, 262);
@@ -67,7 +67,7 @@
             // 
             // earring10
             // 
-            this.earring10.Image = global::Store.Properties.Resources.earring1;
+            this.earring10.Image = global::Store.Properties.Resources.gold24;
             this.earring10.Location = new System.Drawing.Point(367, 169);
             this.earring10.Name = "earring10";
             this.earring10.Size = new System.Drawing.Size(274, 262);
@@ -78,7 +78,7 @@
             // 
             // ringpic20
             // 
-            this.ringpic20.BackgroundImage = global::Store.Properties.Resources.rings2;
+            this.ringpic20.BackgroundImage = global::Store.Properties.Resources.diamondnatural;
             this.ringpic20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ringpic20.Location = new System.Drawing.Point(64, 169);
             this.ringpic20.Name = "ringpic20";

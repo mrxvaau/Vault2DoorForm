@@ -147,7 +147,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Store.Properties.Resources.rings1;
+            this.pictureBox1.Image = global::Store.Properties.Resources.diamondfancy;
             this.pictureBox1.Location = new System.Drawing.Point(67, 126);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(267, 304);
