@@ -78,22 +78,23 @@
             // 
             // ringpic20
             // 
-            this.ringpic20.BackgroundImage = global::Store.Properties.Resources.diamondnatural;
-            this.ringpic20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ringpic20.Location = new System.Drawing.Point(64, 169);
+            this.ringpic20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ringpic20.Image = global::Store.Properties.Resources.diamondnatural;
+            this.ringpic20.Location = new System.Drawing.Point(51, 155);
             this.ringpic20.Name = "ringpic20";
-            this.ringpic20.Size = new System.Drawing.Size(266, 262);
+            this.ringpic20.Size = new System.Drawing.Size(310, 276);
+            this.ringpic20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.ringpic20.TabIndex = 2;
             this.ringpic20.TabStop = false;
             this.ringpic20.Click += new System.EventHandler(this.ringpic20_Click);
             // 
             // signoutbutton
             // 
-            this.signoutbutton.BackgroundImage = global::Store.Properties.Resources.sign_out;
+            this.signoutbutton.BackgroundImage = global::Store.Properties.Resources.Back;
             this.signoutbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.signoutbutton.Location = new System.Drawing.Point(884, 12);
             this.signoutbutton.Name = "signoutbutton";
-            this.signoutbutton.Size = new System.Drawing.Size(72, 39);
+            this.signoutbutton.Size = new System.Drawing.Size(72, 61);
             this.signoutbutton.TabIndex = 1;
             this.signoutbutton.UseVisualStyleBackColor = true;
             this.signoutbutton.Click += new System.EventHandler(this.signoutbutton_Click);

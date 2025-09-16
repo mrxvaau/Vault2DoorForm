@@ -19,6 +19,7 @@ namespace Store.Forms
         {
             InitializeComponent();
             this.currentUserId = userId;
+
             
         }
 

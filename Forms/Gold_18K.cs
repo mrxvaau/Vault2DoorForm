@@ -65,7 +65,7 @@ namespace Store.Forms
 
         private void BtnAddToCart_Click(object sender, EventArgs e)
         {
-            var unitPrice = (selectedKarat == 22) ? 750m : basePrice;
+            var unitPrice = (selectedKarat == 18) ? 750m : basePrice;
             var item = new CartItem
             {
                 ProductName = "Gold 18k",
@@ -100,6 +100,11 @@ namespace Store.Forms
             this.Hide();
             GoldVariants ear2 = new GoldVariants(currentUserId);
             ear2.Show();
+        }
+
+        private void radio18K_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

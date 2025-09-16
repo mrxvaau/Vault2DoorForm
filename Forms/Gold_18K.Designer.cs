@@ -34,12 +34,12 @@
             this.lblQuantity = new System.Windows.Forms.Label();
             this.price = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.radio22K = new System.Windows.Forms.RadioButton();
             this.radio18K = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.BtnAddToCart = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.radio22K = new System.Windows.Forms.RadioButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -52,7 +52,6 @@
             this.panel1.Controls.Add(this.lblQuantity);
             this.panel1.Controls.Add(this.price);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.radio22K);
             this.panel1.Controls.Add(this.radio18K);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(393, 157);
@@ -111,18 +110,6 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "label2";
             // 
-            // radio22K
-            // 
-            this.radio22K.AutoSize = true;
-            this.radio22K.Location = new System.Drawing.Point(223, 185);
-            this.radio22K.Name = "radio22K";
-            this.radio22K.Size = new System.Drawing.Size(76, 20);
-            this.radio22K.TabIndex = 2;
-            this.radio22K.TabStop = true;
-            this.radio22K.Text = "22 Karat";
-            this.radio22K.UseVisualStyleBackColor = true;
-            this.radio22K.CheckedChanged += new System.EventHandler(this.radio22K_CheckedChanged);
-            // 
             // radio18K
             // 
             this.radio18K.AutoSize = true;
@@ -133,6 +120,7 @@
             this.radio18K.TabStop = true;
             this.radio18K.Text = "18 Karat";
             this.radio18K.UseVisualStyleBackColor = true;
+            this.radio18K.CheckedChanged += new System.EventHandler(this.radio18K_CheckedChanged);
             // 
             // label1
             // 
@@ -174,6 +162,18 @@
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
+            // radio22K
+            // 
+            this.radio22K.AutoSize = true;
+            this.radio22K.Location = new System.Drawing.Point(963, 537);
+            this.radio22K.Name = "radio22K";
+            this.radio22K.Size = new System.Drawing.Size(31, 20);
+            this.radio22K.TabIndex = 2;
+            this.radio22K.TabStop = true;
+            this.radio22K.Text = " ";
+            this.radio22K.UseVisualStyleBackColor = true;
+            this.radio22K.CheckedChanged += new System.EventHandler(this.radio22K_CheckedChanged);
+            // 
             // Gold_18K
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -183,6 +183,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.BtnAddToCart);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.radio22K);
             this.Name = "Gold_18K";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gold_18K";
@@ -192,6 +193,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -203,11 +205,11 @@
         private System.Windows.Forms.Label lblQuantity;
         private System.Windows.Forms.Label price;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.RadioButton radio22K;
         private System.Windows.Forms.RadioButton radio18K;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button BtnAddToCart;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.RadioButton radio22K;
     }
 }
