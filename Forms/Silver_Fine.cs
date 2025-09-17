@@ -15,7 +15,7 @@ namespace Store.Forms
     {
         private readonly int currentUserId;
         private decimal basePrice = 1500;
-        private int selectedKarat = 18;
+        private int selectedKarat = 24;
         private int quantity = 1;
         public Silver_Fine(int userId)
         {
@@ -30,7 +30,7 @@ namespace Store.Forms
 
         private void UpdatePriceDisplay()
         {
-            decimal unitPrice = (selectedKarat == 22) ? 1600m : basePrice;
+            decimal unitPrice = (selectedKarat == 24) ? 1600m : basePrice;
             decimal total = unitPrice * quantity;
             label2.Text = total.ToString("N0") + " $";
         }
@@ -38,14 +38,14 @@ namespace Store.Forms
         private void RadioKarat_CheckedChanged(object sender, EventArgs e)
         {
 
-            selectedKarat = radio22K.Checked ? 22 : 18;
+            selectedKarat = radio22K.Checked ? 24 : 18;
             UpdatePriceDisplay();
 
         }
 
         private void BtnAddToCart_Click(object sender, EventArgs e)
         {
-            var unitPrice = (selectedKarat == 22) ? 1600m : basePrice;
+            var unitPrice = (selectedKarat == 24) ? 1600m : basePrice;
             var item = new CartItem
             {
                 ProductName = "Silver Fine",
@@ -100,6 +100,11 @@ namespace Store.Forms
         }
 
         private void lblQuantity_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radio18K_CheckedChanged(object sender, EventArgs e)
         {
 
         }

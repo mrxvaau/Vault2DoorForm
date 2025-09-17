@@ -75,6 +75,11 @@ namespace Store.Forms
 
         }
 
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void UpdateSellDisplay() 
         { 
             lblSellTotal.Text = (quantity * currentPrice) + " $"; 

@@ -37,20 +37,21 @@
             this.lblQuantity = new System.Windows.Forms.Label();
             this.lblSellPrice = new System.Windows.Forms.Label();
             this.lblSellTotal = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblBoughtQty
             // 
             this.lblBoughtQty.AutoSize = true;
-            this.lblBoughtQty.Location = new System.Drawing.Point(235, 133);
+            this.lblBoughtQty.BackColor = System.Drawing.Color.Transparent;
+            this.lblBoughtQty.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBoughtQty.Location = new System.Drawing.Point(513, 297);
             this.lblBoughtQty.Name = "lblBoughtQty";
-            this.lblBoughtQty.Size = new System.Drawing.Size(44, 16);
+            this.lblBoughtQty.Size = new System.Drawing.Size(64, 25);
             this.lblBoughtQty.TabIndex = 0;
             this.lblBoughtQty.Text = "label1";
             this.lblBoughtQty.Click += new System.EventHandler(this.lblBoughtQty_Click);
@@ -58,24 +59,28 @@
             // lblBoughtPrice
             // 
             this.lblBoughtPrice.AutoSize = true;
-            this.lblBoughtPrice.Location = new System.Drawing.Point(235, 193);
+            this.lblBoughtPrice.BackColor = System.Drawing.Color.Transparent;
+            this.lblBoughtPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBoughtPrice.Location = new System.Drawing.Point(510, 369);
             this.lblBoughtPrice.Name = "lblBoughtPrice";
-            this.lblBoughtPrice.Size = new System.Drawing.Size(44, 16);
+            this.lblBoughtPrice.Size = new System.Drawing.Size(64, 25);
             this.lblBoughtPrice.TabIndex = 1;
             this.lblBoughtPrice.Text = "label2";
             // 
             // lblCurrentPrice
             // 
             this.lblCurrentPrice.AutoSize = true;
-            this.lblCurrentPrice.Location = new System.Drawing.Point(235, 246);
+            this.lblCurrentPrice.BackColor = System.Drawing.Color.Transparent;
+            this.lblCurrentPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentPrice.Location = new System.Drawing.Point(512, 439);
             this.lblCurrentPrice.Name = "lblCurrentPrice";
-            this.lblCurrentPrice.Size = new System.Drawing.Size(44, 16);
+            this.lblCurrentPrice.Size = new System.Drawing.Size(79, 29);
             this.lblCurrentPrice.TabIndex = 2;
             this.lblCurrentPrice.Text = "label1";
             // 
             // lblPlus
             // 
-            this.lblPlus.Location = new System.Drawing.Point(437, 296);
+            this.lblPlus.Location = new System.Drawing.Point(929, 452);
             this.lblPlus.Name = "lblPlus";
             this.lblPlus.Size = new System.Drawing.Size(55, 33);
             this.lblPlus.TabIndex = 3;
@@ -85,7 +90,7 @@
             // 
             // lblMinus
             // 
-            this.lblMinus.Location = new System.Drawing.Point(354, 296);
+            this.lblMinus.Location = new System.Drawing.Point(821, 452);
             this.lblMinus.Name = "lblMinus";
             this.lblMinus.Size = new System.Drawing.Size(55, 33);
             this.lblMinus.TabIndex = 4;
@@ -95,18 +100,20 @@
             // 
             // btnSell
             // 
-            this.btnSell.Location = new System.Drawing.Point(400, 369);
+            this.btnSell.BackColor = System.Drawing.Color.Lime;
+            this.btnSell.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnSell.Location = new System.Drawing.Point(853, 543);
             this.btnSell.Name = "btnSell";
-            this.btnSell.Size = new System.Drawing.Size(73, 41);
+            this.btnSell.Size = new System.Drawing.Size(197, 55);
             this.btnSell.TabIndex = 5;
             this.btnSell.Text = "Sell";
-            this.btnSell.UseVisualStyleBackColor = true;
+            this.btnSell.UseVisualStyleBackColor = false;
             this.btnSell.Click += new System.EventHandler(this.btnSell_Click);
             // 
             // lblQuantity
             // 
             this.lblQuantity.AutoSize = true;
-            this.lblQuantity.Location = new System.Drawing.Point(415, 304);
+            this.lblQuantity.Location = new System.Drawing.Point(882, 460);
             this.lblQuantity.Name = "lblQuantity";
             this.lblQuantity.Size = new System.Drawing.Size(44, 16);
             this.lblQuantity.TabIndex = 6;
@@ -125,22 +132,13 @@
             // lblSellTotal
             // 
             this.lblSellTotal.AutoSize = true;
-            this.lblSellTotal.Location = new System.Drawing.Point(465, 225);
+            this.lblSellTotal.BackColor = System.Drawing.Color.Transparent;
+            this.lblSellTotal.ForeColor = System.Drawing.Color.Transparent;
+            this.lblSellTotal.Location = new System.Drawing.Point(983, 297);
             this.lblSellTotal.Name = "lblSellTotal";
             this.lblSellTotal.Size = new System.Drawing.Size(44, 16);
             this.lblSellTotal.TabIndex = 8;
             this.lblSellTotal.Text = "label1";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Store.Properties.Resources.Back;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(40, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label1
             // 
@@ -168,23 +166,26 @@
             this.label3.Size = new System.Drawing.Size(116, 16);
             this.label3.TabIndex = 12;
             this.label3.Text = "Total Selling Price";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // label4
+            // pictureBox1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(254, 31);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(269, 31);
-            this.label4.TabIndex = 13;
-            this.label4.Text = "Make Profit! Sell Now";
+            this.pictureBox1.Image = global::Store.Properties.Resources.Back;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(40, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // SellGold
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label4);
+            this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = global::Store.Properties.Resources.sellGold;
+            this.ClientSize = new System.Drawing.Size(1207, 754);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -223,6 +224,5 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
     }
 }

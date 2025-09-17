@@ -15,7 +15,7 @@ namespace Store.Forms
     {
         private readonly int currentUserId;
         private decimal basePrice = 1100;
-        private int selectedKarat = 18;
+        private int selectedKarat = 22;
         private int quantity = 1;
         public Silver_Sterling(int userId)
         {
@@ -90,6 +90,16 @@ namespace Store.Forms
             this.Hide();
             SilverVariants buy5 = new SilverVariants(currentUserId);
             buy5.Show();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblQuantity_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

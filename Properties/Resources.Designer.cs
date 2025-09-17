@@ -343,6 +343,16 @@ namespace Store.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap sellGold {
+            get {
+                object obj = ResourceManager.GetObject("sellGold", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap sign_out {
             get {
                 object obj = ResourceManager.GetObject("sign-out", resourceCulture);
