@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\silver_alloy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\silver_alloy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\sellgold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\sellgold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\sellgold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\sellgold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\gold_18k.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\gold_18k.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\gold_22k.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\gold_22k.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\silver_alloy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\silver_alloy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\gold_24k.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\gold_24k.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\silver_fine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\silver_fine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\sellgold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\sellgold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\silver_sterling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\silver_sterling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\silver_sterling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -29,6 +37,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\silver_fine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\silver_fine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\silver_alloy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\silver_alloy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\gold_22k.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\gold_22k.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|d:\\practice_-zone\\oop\\c#\\xzvzxvsdv\\project\\forms\\gold_24k.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9589EA47-63F7-4CC5-8905-DED87A7CF8D9}|Store.csproj|solutionrelative:forms\\gold_24k.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +58,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "Properties\\Resources.resx",
+              "ToolTip": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Properties\\Resources.resx",
+              "RelativeToolTip": "Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-09-17T01:52:02.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SellGold.cs",
+              "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\SellGold.cs",
+              "RelativeDocumentMoniker": "Forms\\SellGold.cs",
+              "ToolTip": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\SellGold.cs",
+              "RelativeToolTip": "Forms\\SellGold.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAArwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T01:49:13.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Silver_Alloy.cs",
+              "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\Silver_Alloy.cs",
+              "RelativeDocumentMoniker": "Forms\\Silver_Alloy.cs",
+              "ToolTip": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\Silver_Alloy.cs",
+              "RelativeToolTip": "Forms\\Silver_Alloy.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAEwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T01:42:44.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Silver_Sterling.cs",
+              "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\Silver_Sterling.cs",
+              "RelativeDocumentMoniker": "Forms\\Silver_Sterling.cs",
+              "ToolTip": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\Silver_Sterling.cs",
+              "RelativeToolTip": "Forms\\Silver_Sterling.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T01:40:52.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Silver_Fine.cs",
+              "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\Silver_Fine.cs",
+              "RelativeDocumentMoniker": "Forms\\Silver_Fine.cs",
+              "ToolTip": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\Silver_Fine.cs",
+              "RelativeToolTip": "Forms\\Silver_Fine.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAswC8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T01:39:30.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "SellGold.cs [Design]",
               "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\SellGold.cs",
               "RelativeDocumentMoniker": "Forms\\SellGold.cs",
@@ -54,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Silver_Sterling.cs [Design]",
               "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\Silver_Sterling.cs",
               "RelativeDocumentMoniker": "Forms\\Silver_Sterling.cs",
@@ -66,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Silver_Fine.cs [Design]",
               "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\Silver_Fine.cs",
               "RelativeDocumentMoniker": "Forms\\Silver_Fine.cs",
@@ -78,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "Silver_Alloy.cs [Design]",
               "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\Silver_Alloy.cs",
               "RelativeDocumentMoniker": "Forms\\Silver_Alloy.cs",
@@ -90,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Gold_18K.cs [Design]",
               "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\Gold_18K.cs",
               "RelativeDocumentMoniker": "Forms\\Gold_18K.cs",
@@ -102,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "Gold_22K.cs [Design]",
               "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\Gold_22K.cs",
               "RelativeDocumentMoniker": "Forms\\Gold_22K.cs",
@@ -114,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "Gold_24K.cs [Design]",
               "DocumentMoniker": "D:\\PRACTICE_-ZONE\\OOP\\C#\\xzvZXVSDv\\Project\\Forms\\Gold_24K.cs",
               "RelativeDocumentMoniker": "Forms\\Gold_24K.cs",
