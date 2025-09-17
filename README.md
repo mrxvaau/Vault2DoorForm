@@ -35,9 +35,9 @@ A comprehensive Windows Forms application for managing jewelry sales, gold inves
 ## 🚀 Installation
 
 ### 1. Clone the Repository
-```bash
-git clone https://github.com/yourusername/jewelry-store-system.git
-cd jewelry-store-system
+```bashs
+git clone https://github.com/mrxvaau/Vault2DoorFrom.git
+cd Vault2DoorFrom
 ```
 
 ### 2. Database Setup
