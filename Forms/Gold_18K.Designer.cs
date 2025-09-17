@@ -32,10 +32,8 @@
             this.LblPlus = new System.Windows.Forms.Label();
             this.LblMinus = new System.Windows.Forms.Label();
             this.lblQuantity = new System.Windows.Forms.Label();
-            this.price = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.radio18K = new System.Windows.Forms.RadioButton();
-            this.label1 = new System.Windows.Forms.Label();
             this.BtnAddToCart = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -47,13 +45,11 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.LblPlus);
             this.panel1.Controls.Add(this.LblMinus);
             this.panel1.Controls.Add(this.lblQuantity);
-            this.panel1.Controls.Add(this.price);
-            this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.radio18K);
-            this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(393, 157);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(525, 304);
@@ -63,7 +59,7 @@
             // 
             this.LblPlus.AutoSize = true;
             this.LblPlus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblPlus.Location = new System.Drawing.Point(124, 139);
+            this.LblPlus.Location = new System.Drawing.Point(227, 254);
             this.LblPlus.Name = "LblPlus";
             this.LblPlus.Size = new System.Drawing.Size(24, 25);
             this.LblPlus.TabIndex = 7;
@@ -74,7 +70,7 @@
             // 
             this.LblMinus.AutoSize = true;
             this.LblMinus.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblMinus.Location = new System.Drawing.Point(70, 139);
+            this.LblMinus.Location = new System.Drawing.Point(173, 254);
             this.LblMinus.Name = "LblMinus";
             this.LblMinus.Size = new System.Drawing.Size(21, 29);
             this.LblMinus.TabIndex = 6;
@@ -85,26 +81,19 @@
             // 
             this.lblQuantity.AutoSize = true;
             this.lblQuantity.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQuantity.Location = new System.Drawing.Point(97, 139);
+            this.lblQuantity.Location = new System.Drawing.Point(200, 254);
             this.lblQuantity.Name = "lblQuantity";
             this.lblQuantity.Size = new System.Drawing.Size(64, 25);
             this.lblQuantity.TabIndex = 5;
             this.lblQuantity.Text = "label3";
             // 
-            // price
-            // 
-            this.price.AutoSize = true;
-            this.price.Location = new System.Drawing.Point(51, 74);
-            this.price.Name = "price";
-            this.price.Size = new System.Drawing.Size(37, 16);
-            this.price.TabIndex = 4;
-            this.price.Text = "price";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(108, 64);
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label2.Location = new System.Drawing.Point(948, 317);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(79, 29);
             this.label2.TabIndex = 3;
@@ -113,50 +102,44 @@
             // radio18K
             // 
             this.radio18K.AutoSize = true;
-            this.radio18K.Location = new System.Drawing.Point(72, 185);
+            this.radio18K.Location = new System.Drawing.Point(95, 254);
             this.radio18K.Name = "radio18K";
-            this.radio18K.Size = new System.Drawing.Size(76, 20);
+            this.radio18K.Size = new System.Drawing.Size(31, 20);
             this.radio18K.TabIndex = 1;
             this.radio18K.TabStop = true;
-            this.radio18K.Text = "18 Karat";
+            this.radio18K.Text = " ";
             this.radio18K.UseVisualStyleBackColor = true;
             this.radio18K.CheckedChanged += new System.EventHandler(this.radio18K_CheckedChanged);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(51, 19);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Gold18k";
-            // 
             // BtnAddToCart
             // 
-            this.BtnAddToCart.Location = new System.Drawing.Point(540, 467);
+            this.BtnAddToCart.BackColor = System.Drawing.Color.Lime;
+            this.BtnAddToCart.Location = new System.Drawing.Point(540, 576);
             this.BtnAddToCart.Name = "BtnAddToCart";
-            this.BtnAddToCart.Size = new System.Drawing.Size(95, 29);
+            this.BtnAddToCart.Size = new System.Drawing.Size(189, 69);
             this.BtnAddToCart.TabIndex = 3;
             this.BtnAddToCart.Text = "Add to Cart";
-            this.BtnAddToCart.UseVisualStyleBackColor = true;
+            this.BtnAddToCart.UseVisualStyleBackColor = false;
             this.BtnAddToCart.Click += new System.EventHandler(this.BtnAddToCart_Click);
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::Store.Properties.Resources.gold18;
-            this.pictureBox1.Location = new System.Drawing.Point(70, 157);
+            this.pictureBox1.Location = new System.Drawing.Point(91, 264);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(267, 304);
+            this.pictureBox1.Size = new System.Drawing.Size(281, 370);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
             // pictureBox4
             // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Image = global::Store.Properties.Resources.Back;
-            this.pictureBox4.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox4.Location = new System.Drawing.Point(1119, 117);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(47, 42);
+            this.pictureBox4.Size = new System.Drawing.Size(76, 62);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 5;
             this.pictureBox4.TabStop = false;
@@ -165,7 +148,7 @@
             // radio22K
             // 
             this.radio22K.AutoSize = true;
-            this.radio22K.Location = new System.Drawing.Point(963, 537);
+            this.radio22K.Location = new System.Drawing.Point(-14, -19);
             this.radio22K.Name = "radio22K";
             this.radio22K.Size = new System.Drawing.Size(31, 20);
             this.radio22K.TabIndex = 2;
@@ -176,13 +159,14 @@
             // 
             // Gold_18K
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(982, 553);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BackgroundImage = global::Store.Properties.Resources.goldcart18;
+            this.ClientSize = new System.Drawing.Size(1254, 688);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.BtnAddToCart);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.radio22K);
             this.Name = "Gold_18K";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -203,10 +187,8 @@
         private System.Windows.Forms.Label LblPlus;
         private System.Windows.Forms.Label LblMinus;
         private System.Windows.Forms.Label lblQuantity;
-        private System.Windows.Forms.Label price;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.RadioButton radio18K;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button BtnAddToCart;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox4;

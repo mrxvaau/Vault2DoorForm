@@ -32,12 +32,13 @@
             this.necklace30 = new System.Windows.Forms.PictureBox();
             this.earring10 = new System.Windows.Forms.PictureBox();
             this.ringpic20 = new System.Windows.Forms.PictureBox();
-            this.signoutbutton = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.necklace30)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.earring10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ringpic20)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label4
@@ -89,18 +90,6 @@
             this.ringpic20.TabStop = false;
             this.ringpic20.Click += new System.EventHandler(this.ringpic20_Click);
             // 
-            // signoutbutton
-            // 
-            this.signoutbutton.BackColor = System.Drawing.Color.Navy;
-            this.signoutbutton.BackgroundImage = global::Store.Properties.Resources.Back;
-            this.signoutbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.signoutbutton.Location = new System.Drawing.Point(1073, 116);
-            this.signoutbutton.Name = "signoutbutton";
-            this.signoutbutton.Size = new System.Drawing.Size(72, 61);
-            this.signoutbutton.TabIndex = 1;
-            this.signoutbutton.UseVisualStyleBackColor = false;
-            this.signoutbutton.Click += new System.EventHandler(this.signoutbutton_Click);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
@@ -113,18 +102,30 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::Store.Properties.Resources.sign_out;
+            this.pictureBox2.Location = new System.Drawing.Point(1038, 116);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(124, 64);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 10;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
             // ChoiceSection
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.SystemColors.MenuBar;
             this.BackgroundImage = global::Store.Properties.Resources.Choice;
             this.ClientSize = new System.Drawing.Size(1174, 702);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.necklace30);
             this.Controls.Add(this.earring10);
             this.Controls.Add(this.ringpic20);
-            this.Controls.Add(this.signoutbutton);
             this.Name = "ChoiceSection";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ChoiceSection";
@@ -133,17 +134,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.earring10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ringpic20)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Button signoutbutton;
         private System.Windows.Forms.PictureBox ringpic20;
         private System.Windows.Forms.PictureBox earring10;
         private System.Windows.Forms.PictureBox necklace30;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
